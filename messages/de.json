@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "title": "Daiva Jankus | Vereidigte Dolmetscherin Litauisch & Berufsbetreuerin | Mönchengladbach",
+    "description": "Vereidigte Dolmetscherin Litauisch–Deutsch (OLG Düsseldorf) und registrierte Berufsbetreuerin in Mönchengladbach. Zwei Mandate, ein Verständnis von Verantwortung."
+  },
+  "lang": {
+    "de": "Deutsch",
+    "en": "English",
+    "lt": "Lietuvių",
+    "selectLabel": "Sprache wählen"
+  },
+  "header": {
+    "subline": "Dolmetscherin · Berufsbetreuerin",
+    "call": "+49 173 798 3626",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "callAria": "Anrufen"
+  },
+  "nav": {
+    "interpreting": "Dolmetschen",
+    "guardianship": "Rechtliche Betreuung",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "ariaLabel": "Hauptnavigation"
+  },
+  "hero": {
+    "eyebrow": "OLG Düsseldorf · BtOG-Registrierung",
+    "title": "Rechtsverbindlich vermitteln. Sprachlich. Persönlich.",
+    "lead": "Vereidigte Dolmetscherin Litauisch–Deutsch und registrierte Berufsbetreuerin in Mönchengladbach. Zwei Mandate, ein Verständnis von Verantwortung — für Justiz, Behörden, Unternehmen und Familien.",
+    "ctaPrimary": "Anfrage stellen",
+    "ctaSecondary": "Direkt anrufen",
+    "portraitCaption": "Daiva Jankus, Mönchengladbach",
+    "portraitAlt": "Portrait Daiva Jankus"
+  },
+  "trust": {
+    "ariaLabel": "Qualifikationen",
+    "items": [
+      "Zugelassen durch das OLG Düsseldorf",
+      "Registrierte Berufsbetreuerin (BtOG)",
+      "30 Jahre Berufserfahrung",
+      "Beeidigt & ermächtigt",
+      "Deutsch ↔ Litauisch"
+    ]
+  },
+  "mandates": {
+    "eyebrow": "Zwei Mandate",
+    "title": "Zwei Tätigkeitsfelder, ein Verständnis von Verantwortung.",
+    "lede": "Beide Mandate haben dieselbe DNA — staatlich kontrolliert, persönlich verantwortet, ohne maschinellen Zwischenschritt.",
+    "i": {
+      "eyebrow": "Mandat I",
+      "title": "Dolmetschen & Übersetzen",
+      "subline": "Vereidigt durch das OLG Düsseldorf",
+      "desc": "Dolmetschen vor Gericht, Behörden, Notaren und am Verhandlungstisch. Beglaubigte Übersetzungen aller offiziellen Dokumente. Litauisch–Deutsch, in beide Richtungen.",
+      "fields": "Justiz · Behörden · Wirtschaft · Privat",
+      "cta": "Mehr zum Dolmetschen"
+    },
+    "ii": {
+      "eyebrow": "Mandat II",
+      "title": "Rechtliche Betreuung",
+      "subline": "Registrierte Berufsbetreuerin nach BtOG",
+      "desc": "Berufliche rechtliche Betreuung mit Schwerpunkt Vermögens-, Gesundheits- und Aufenthaltssorge. Persönliche Vertretung volljähriger Menschen, die ihre Angelegenheiten nicht mehr selbst regeln können.",
+      "fields": "Vermögenssorge · Gesundheitssorge · Aufenthalt · Behörden",
+      "cta": "Mehr zur Betreuung"
+    }
+  },
+  "intersection": {
+    "eyebrow": "Eine seltene Kombination",
+    "title": "Wenn Recht eine andere Sprache spricht.",
+    "body": "In Deutschland leben mehrere zehntausend Menschen mit litauischer Erstsprache — viele heute im hohen Alter, in Pflegeeinrichtungen oder in komplexen rechtlichen Situationen. Wenn die Familie weit entfernt ist und das Gegenüber im Amtsdeutsch spricht, entsteht ein Spalt, der mit Übersetzung allein nicht zu schließen ist. Die Verbindung von rechtlicher Betreuung und muttersprachlicher Verständigung ist in Deutschland selten — und oft genau das, was Familiengerichte, Sozialdienste, Pflegeeinrichtungen und Familien mit litauischsprachigen Angehörigen brauchen.",
+    "cases": [
+      {
+        "title": "Litauischsprachige Senioren in deutschen Pflegeeinrichtungen",
+        "body": "Die Sprache der Kindheit kehrt im Alter zurück, der Pflegealltag ist deutsch. Eine Betreuerin, die beide Welten beherrscht, schließt den Riss."
+      },
+      {
+        "title": "Familien mit Betreuungsbedarf und Kommunikationsbarrieren",
+        "body": "Wenn Angehörige in Litauen leben und Entscheidungen in Deutschland fallen, braucht es eine Vertrauensinstanz vor Ort, die in beide Richtungen erklärt."
+      },
+      {
+        "title": "Gerichtlich bestellte Betreuung mit kultureller und sprachlicher Nähe",
+        "body": "Betreuungsgerichte greifen zunehmend auf Personen zurück, die der betroffenen Person sprachlich und kulturell nahe stehen. Eine Eignung, die belegt sein muss."
+      }
+    ],
+    "cta": "Anfrage stellen →"
+  },
+  "differentiation": {
+    "eyebrow": "Warum ein Mensch",
+    "title": "Warum ein Mensch — und nicht ein System.",
+    "items": [
+      {
+        "title": "Rechtsverbindlichkeit",
+        "body": "Beglaubigte Übersetzungen, Gerichtsdolmetschen und gesetzliche Betreuung sind in Deutschland an persönliche Zulassung und Registrierung gebunden. Kein Algorithmus kann hier eintreten."
+      },
+      {
+        "title": "Verschwiegenheit & Verantwortung",
+        "body": "Berufliche Schweigepflicht, persönliche Bearbeitung sensibler Unterlagen, Haftung im eigenen Namen. In der Betreuung: Treuhand für Lebensentscheidungen."
+      },
+      {
+        "title": "Vor-Ort-Präsenz & Urteilsvermögen",
+        "body": "Verhandlungen, Pflegegespräche und Behördentermine leben von Tonfall, Kontext und menschlichem Urteil. Beide Mandate verlangen Anwesenheit, nicht Abruf."
+      }
+    ]
+  },
+  "aboutTeaser": {
+    "eyebrow": "Über Daiva Jankus",
+    "title": "Drei Jahrzehnte zwischen zwei Sprachen — und zwei Verantwortungen.",
+    "body": "Geboren in Litauen, seit 1995 in Deutschland tätig. Allgemein beeidigte Dolmetscherin (OLG Düsseldorf) und ermächtigte Übersetzerin für Litauisch–Deutsch. Seit 2023 zusätzlich registrierte Berufsbetreuerin nach BtOG, mit Sachkundenachweis und Sitz in Mönchengladbach. Tätig in Justiz, Wirtschaft und in der persönlichen Vertretung volljähriger Menschen — auf Deutsch und Litauisch.",
+    "cta": "Vollständiger Werdegang",
+    "photoAlt": "Foto Daiva am Schreibtisch"
+  },
+  "homeFaq": {
+    "eyebrow": "Antworten",
+    "title": "Häufig gefragt.",
+    "items": [
+      {
+        "q": "Wer darf in Deutschland Litauisch vor Gericht dolmetschen?",
+        "a": "Vor deutschen Gerichten dürfen ausschließlich allgemein beeidigte Dolmetscher tätig werden (§ 189 GVG). Daiva Jankus ist beim Oberlandesgericht Düsseldorf für die litauische Sprache allgemein beeidigt und kann bundesweit eingesetzt werden."
+      },
+      {
+        "q": "Was ist eine rechtliche Betreuung?",
+        "a": "Eine rechtliche Betreuung wird vom Betreuungsgericht für volljährige Personen angeordnet, die ihre Angelegenheiten ganz oder teilweise nicht mehr selbst regeln können. Sie ersetzt die frühere Vormundschaft und ist auf Erforderlichkeit und Wohl der betreuten Person ausgerichtet (§§ 1814 ff. BGB)."
+      },
+      {
+        "q": "Kann ich Daiva Jankus als Betreuerin vorschlagen?",
+        "a": "Ja. Bei der Anordnung einer Betreuung können Betroffene oder Angehörige beim Betreuungsgericht eine bestimmte Person vorschlagen. Das Gericht ist diesem Vorschlag im Regelfall zu folgen verpflichtet, sofern keine Gründe dagegen sprechen (§ 1816 BGB)."
+      },
+      {
+        "q": "In welchen Städten arbeitet Daiva Jankus?",
+        "a": "Hauptsächlich in Nordrhein-Westfalen — Düsseldorf, Köln, Mönchengladbach, Essen, Dortmund — sowie bundesweit nach Absprache. Für längere Termine ist auch eine Anreise außerhalb von NRW eingeplant."
+      }
+    ],
+    "moreInterpreting": "Alle Fragen zum Dolmetschen",
+    "moreGuardianship": "Alle Fragen zur Betreuung"
+  },
+  "closing": {
+    "title": "Bereit für eine konkrete Anfrage?",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "formLabel": "Formular",
+    "formCta": "Anfrage stellen →"
+  },
+  "footer": {
+    "tag": "Vereidigte Dolmetscherin Litauisch–Deutsch · Registrierte Berufsbetreuerin nach BtOG · Mönchengladbach",
+    "olg": "OLG Düsseldorf · BtOG · BDÜ",
+    "col1": "Mandate",
+    "col2": "Profil",
+    "col3": "Recht",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "copy": "© Daiva Jankus, Mönchengladbach. Alle Rechte vorbehalten.",
+    "langs": "DE · EN · LT"
+  },
+  "breadcrumb": {
+    "home": "Startseite",
+    "contact": "Kontakt"
+  },
+  "kontakt": {
+    "eyebrow": "Anfrage",
+    "title": "Direkt, persönlich, vertraulich.",
+    "lead": "Drei Wege zur Anfrage — Telefon, E-Mail, Formular. Alle Anfragen werden persönlich von Daiva Jankus bearbeitet.",
+    "channels": [
+      { "title": "Telefon", "hint": "Mo–Fr 9–18 Uhr · außerhalb dieser Zeiten Rückruf" },
+      { "title": "E-Mail", "hint": "Antwort innerhalb von 24 Werkstunden" },
+      { "title": "Adresse", "hint": "Termine vor Ort und bundesweit", "value": "Mönchengladbach, NRW" }
+    ],
+    "form": {
+      "eyebrow": "Anfrageformular",
+      "title": "Schreiben Sie mir.",
+      "lede": "Pflichtfelder mit *. Ihre Anfrage wird vertraulich behandelt und persönlich beantwortet.",
+      "name": "Name *",
+      "email": "E-Mail *",
+      "phone": "Telefon (optional)",
+      "topic": "Anliegen *",
+      "topicPlaceholder": "Bitte wählen…",
+      "topicGroupInterpreting": "Mandat I — Dolmetschen & Übersetzen",
+      "topicGroupGuardianship": "Mandat II — Rechtliche Betreuung",
+      "topicOptions": {
+        "dolmetschen": "Dolmetschen vor Gericht / Behörde",
+        "uebersetzung": "Beglaubigte Übersetzung",
+        "wirtschaft": "Wirtschaftsverhandlung",
+        "privat": "Privat / Standesamt / Notar",
+        "betreuung": "Rechtliche Betreuung — Anfrage",
+        "vorschlag": "Vorschlag als Betreuerin (§ 1816 BGB)",
+        "gericht": "Anfrage seitens Betreuungsgericht / Behörde",
+        "other": "Etwas Anderes"
+      },
+      "urgency": "Zeitliche Dringlichkeit",
+      "urgencyOptions": {
+        "standard": "Standard — innerhalb der nächsten Wochen",
+        "bald": "Bald — innerhalb von 7–14 Tagen",
+        "dringend": "Dringend — innerhalb von 1–3 Tagen"
+      },
+      "message": "Nachricht *",
+      "messagePlaceholder": "Kurze Beschreibung der Situation: Termin, Dokumente, Anlass …",
+      "consent": "Ich willige ein, dass meine Angaben zur Bearbeitung meiner Anfrage gespeichert werden. *",
+      "submit": "Anfrage absenden",
+      "submitting": "Wird gesendet…",
+      "privacyNote": "Vertrauliche Behandlung · DSGVO-konform · keine Cloud-Verarbeitung",
+      "okTitle": "Anfrage gesendet.",
+      "okBody": "Vielen Dank — Ihre Nachricht ist eingegangen. Sie erhalten in der Regel innerhalb von 24 Werkstunden eine persönliche Antwort.",
+      "okAgain": "Weitere Anfrage stellen",
+      "errorTitle": "Etwas ist schiefgelaufen.",
+      "errorBody": "Bitte versuchen Sie es erneut oder rufen Sie direkt an: +49 173 798 3626.",
+      "errors": {
+        "name": "Bitte geben Sie Ihren Namen an.",
+        "email": "Bitte geben Sie eine gültige E-Mail-Adresse an.",
+        "topic": "Bitte wählen Sie ein Anliegen.",
+        "message": "Bitte beschreiben Sie kurz Ihr Anliegen.",
+        "consent": "Bitte stimmen Sie der Verarbeitung Ihrer Daten zu."
+      }
+    },
+    "hinweise": [
+      {
+        "title": "Vertraulichkeit",
+        "body": "Berufliche Schweigepflicht. Persönliche Bearbeitung. Keine Weitergabe an Dritte. Keine Cloud-Dienste für sensible Unterlagen."
+      },
+      {
+        "title": "Sprachen der Anfrage",
+        "body": "Anfragen sind willkommen auf Deutsch, Litauisch und Englisch — die Bearbeitung erfolgt in der gewünschten Sprache."
+      },
+      {
+        "title": "Eilfälle",
+        "body": "Bei dringenden Anliegen (Polizei, Haftrichter, Klinik) bitte direkt anrufen — Formular nur, wenn Zeit ist."
+      }
+    ]
+  },
+  "subpages": {
+    "wip": {
+      "eyebrow": "In Vorbereitung",
+      "title": "Diese Seite folgt in Kürze.",
+      "body": "Wenden Sie sich für konkrete Anfragen jederzeit telefonisch oder per E-Mail.",
+      "back": "Zurück zur Startseite"
+    },
+    "interpreting": {
+      "title": "Dolmetschen & Übersetzen",
+      "lead": "Detailseite zum ersten Mandat — vereidigtes Dolmetschen und beglaubigte Übersetzungen Litauisch–Deutsch."
+    },
+    "guardianship": {
+      "title": "Rechtliche Betreuung",
+      "lead": "Detailseite zum zweiten Mandat — registrierte Berufsbetreuerin nach BtOG."
+    },
+    "about": {
+      "title": "Über Daiva Jankus",
+      "lead": "Werdegang, Qualifikationen, Mitgliedschaften."
+    }
+  }
+}

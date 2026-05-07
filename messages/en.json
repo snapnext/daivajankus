@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "title": "Daiva Jankus | Sworn Lithuanian Interpreter & Professional Legal Guardian | Mönchengladbach",
+    "description": "Sworn Lithuanian–German interpreter (OLG Düsseldorf) and registered professional legal guardian in Mönchengladbach. Two mandates, one understanding of responsibility."
+  },
+  "lang": {
+    "de": "Deutsch",
+    "en": "English",
+    "lt": "Lietuvių",
+    "selectLabel": "Choose language"
+  },
+  "header": {
+    "subline": "Interpreter · Professional Guardian",
+    "call": "+49 173 798 3626",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "callAria": "Call"
+  },
+  "nav": {
+    "interpreting": "Interpreting",
+    "guardianship": "Legal Guardianship",
+    "about": "About",
+    "contact": "Contact",
+    "ariaLabel": "Main navigation"
+  },
+  "hero": {
+    "eyebrow": "OLG Düsseldorf · BtOG-registered",
+    "title": "Legally binding mediation — in language and in life.",
+    "lead": "Sworn Lithuanian–German interpreter and registered professional legal guardian in Mönchengladbach. Two mandates, one understanding of responsibility — for courts, public authorities, businesses and families.",
+    "ctaPrimary": "Send an enquiry",
+    "ctaSecondary": "Call directly",
+    "portraitCaption": "Daiva Jankus, Mönchengladbach",
+    "portraitAlt": "Portrait of Daiva Jankus"
+  },
+  "trust": {
+    "ariaLabel": "Qualifications",
+    "items": [
+      "Authorised by the OLG Düsseldorf",
+      "Registered professional guardian (BtOG)",
+      "30 years of professional practice",
+      "Sworn & certified",
+      "German ↔ Lithuanian"
+    ]
+  },
+  "mandates": {
+    "eyebrow": "Two mandates",
+    "title": "Two practices, one understanding of responsibility.",
+    "lede": "Both mandates share the same DNA — state-authorised, personally accountable, with no machine in between.",
+    "i": {
+      "eyebrow": "Mandate I",
+      "title": "Interpreting & Translation",
+      "subline": "Sworn by the OLG Düsseldorf",
+      "desc": "Court, authority and notarial interpreting; certified translations of all official documents. Lithuanian–German, in both directions.",
+      "fields": "Courts · Authorities · Business · Private",
+      "cta": "More on interpreting"
+    },
+    "ii": {
+      "eyebrow": "Mandate II",
+      "title": "Legal Guardianship",
+      "subline": "Registered professional guardian, BtOG",
+      "desc": "Professional legal guardianship focused on financial care, healthcare and residence matters. Personal representation of adults who can no longer manage their affairs themselves.",
+      "fields": "Financial care · Healthcare · Residence · Authorities",
+      "cta": "More on guardianship"
+    }
+  },
+  "intersection": {
+    "eyebrow": "A rare combination",
+    "title": "When the law speaks another language.",
+    "body": "Tens of thousands of people in Germany have Lithuanian as their first language — many of them now in advanced age, in care facilities, or in complex legal situations. When the family is far away and the counterpart speaks the formal German of authorities, a gap opens that translation alone cannot close. The combination of legal guardianship with native-language fluency is rare in Germany — and often exactly what family courts, social services, care facilities and families with Lithuanian-speaking relatives actually need.",
+    "cases": [
+      {
+        "title": "Lithuanian-speaking seniors in German care facilities",
+        "body": "The language of childhood returns with age, while care is delivered in German. A guardian fluent in both worlds closes the gap."
+      },
+      {
+        "title": "Families with care needs and language barriers",
+        "body": "When relatives live in Lithuania and decisions fall in Germany, an on-site presence is needed who explains in both directions."
+      },
+      {
+        "title": "Court-appointed guardianship with cultural and linguistic proximity",
+        "body": "Guardianship courts increasingly seek persons close to the affected individual in language and culture — a suitability that must be documented."
+      }
+    ],
+    "cta": "Send an enquiry →"
+  },
+  "differentiation": {
+    "eyebrow": "Why a person",
+    "title": "Why a person — and not a system.",
+    "items": [
+      {
+        "title": "Legal admissibility",
+        "body": "Certified translation, court interpreting and legal guardianship in Germany are tied to personal authorisation and registration. No algorithm can step in here."
+      },
+      {
+        "title": "Confidentiality & responsibility",
+        "body": "Professional duty of confidentiality, personal handling of sensitive material, liability under one's own name. In guardianship: trusteeship over decisions about a life."
+      },
+      {
+        "title": "Presence & judgement",
+        "body": "Negotiations, care conversations and authority appointments live on tone, context and human judgement. Both mandates require attendance — not retrieval."
+      }
+    ]
+  },
+  "aboutTeaser": {
+    "eyebrow": "About Daiva Jankus",
+    "title": "Three decades between two languages — and two responsibilities.",
+    "body": "Born in Lithuania, working in Germany since 1995. Generally sworn interpreter (OLG Düsseldorf) and authorised translator for Lithuanian–German. Since 2023 also a registered professional legal guardian under the BtOG, with documented qualification and a practice based in Mönchengladbach. Active in courts, business and the personal representation of adults — in German and Lithuanian.",
+    "cta": "Full career path",
+    "photoAlt": "Photo of Daiva at her desk"
+  },
+  "homeFaq": {
+    "eyebrow": "Answers",
+    "title": "Frequently asked.",
+    "items": [
+      {
+        "q": "Who is allowed to interpret Lithuanian in German courts?",
+        "a": "In German courts, only generally sworn interpreters may act in this capacity (§ 189 GVG). Daiva Jankus is generally sworn for the Lithuanian language by the Higher Regional Court of Düsseldorf and may be engaged anywhere in Germany."
+      },
+      {
+        "q": "What is legal guardianship in Germany?",
+        "a": "Legal guardianship is ordered by the guardianship court for adults who can no longer manage their affairs in whole or in part. It replaced the former tutelage system and is oriented toward necessity and the welfare of the person under care (§§ 1814 et seq. BGB)."
+      },
+      {
+        "q": "Can I propose Daiva Jankus as guardian?",
+        "a": "Yes. When ordering a guardianship, those affected or their relatives may propose a particular person to the guardianship court. The court is required to follow this proposal as a rule, unless there are reasons against it (§ 1816 BGB)."
+      },
+      {
+        "q": "Where does Daiva Jankus work?",
+        "a": "Mainly in North Rhine-Westphalia — Düsseldorf, Cologne, Mönchengladbach, Essen, Dortmund — and elsewhere in Germany by arrangement. For longer engagements, travel outside NRW is included."
+      }
+    ],
+    "moreInterpreting": "All questions on interpreting",
+    "moreGuardianship": "All questions on guardianship"
+  },
+  "closing": {
+    "title": "Ready for a concrete enquiry?",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "formLabel": "Form",
+    "formCta": "Send an enquiry →"
+  },
+  "footer": {
+    "tag": "Sworn interpreter Lithuanian–German · Registered professional guardian, BtOG · Mönchengladbach",
+    "olg": "OLG Düsseldorf · BtOG · BDÜ",
+    "col1": "Mandates",
+    "col2": "Profile",
+    "col3": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy",
+    "copy": "© Daiva Jankus, Mönchengladbach. All rights reserved.",
+    "langs": "DE · EN · LT"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "contact": "Contact"
+  },
+  "kontakt": {
+    "eyebrow": "Enquiry",
+    "title": "Direct, personal, confidential.",
+    "lead": "Three ways to get in touch — phone, email, form. Every enquiry is handled personally by Daiva Jankus.",
+    "channels": [
+      { "title": "Phone", "hint": "Mon–Fri 9 am – 6 pm CET · callback outside hours" },
+      { "title": "Email", "hint": "Reply within 24 working hours" },
+      { "title": "Address", "hint": "On-site appointments and across Germany", "value": "Mönchengladbach, NRW" }
+    ],
+    "form": {
+      "eyebrow": "Enquiry form",
+      "title": "Write to me.",
+      "lede": "Required fields marked with *. Your enquiry will be treated confidentially and answered personally.",
+      "name": "Name *",
+      "email": "Email *",
+      "phone": "Phone (optional)",
+      "topic": "Subject *",
+      "topicPlaceholder": "Please choose…",
+      "topicGroupInterpreting": "Mandate I — Interpreting & Translation",
+      "topicGroupGuardianship": "Mandate II — Legal Guardianship",
+      "topicOptions": {
+        "dolmetschen": "Court / authority interpreting",
+        "uebersetzung": "Certified translation",
+        "wirtschaft": "Business negotiation",
+        "privat": "Private / registry office / notary",
+        "betreuung": "Legal guardianship — enquiry",
+        "vorschlag": "Proposal as guardian (§ 1816 BGB)",
+        "gericht": "Enquiry from guardianship court / authority",
+        "other": "Something else"
+      },
+      "urgency": "Time pressure",
+      "urgencyOptions": {
+        "standard": "Standard — within the coming weeks",
+        "bald": "Soon — within 7–14 days",
+        "dringend": "Urgent — within 1–3 days"
+      },
+      "message": "Message *",
+      "messagePlaceholder": "A short description: appointment, documents, occasion…",
+      "consent": "I consent to the storage of my data for the purpose of this enquiry. *",
+      "submit": "Send enquiry",
+      "submitting": "Sending…",
+      "privacyNote": "Confidential · GDPR-compliant · no cloud processing",
+      "okTitle": "Enquiry sent.",
+      "okBody": "Thank you — your message has been received. You will usually receive a personal reply within 24 working hours.",
+      "okAgain": "Send another enquiry",
+      "errorTitle": "Something went wrong.",
+      "errorBody": "Please try again or call directly: +49 173 798 3626.",
+      "errors": {
+        "name": "Please enter your name.",
+        "email": "Please enter a valid email address.",
+        "topic": "Please choose a subject.",
+        "message": "Please briefly describe your enquiry.",
+        "consent": "Please consent to the processing of your data."
+      }
+    },
+    "hinweise": [
+      {
+        "title": "Confidentiality",
+        "body": "Professional duty of confidentiality. Personal handling. No third-party disclosure. No cloud services for sensitive material."
+      },
+      {
+        "title": "Languages of enquiry",
+        "body": "Enquiries are welcome in German, Lithuanian and English — the matter will be handled in your preferred language."
+      },
+      {
+        "title": "Urgent matters",
+        "body": "For urgent matters (police, remand judge, hospital) please call directly — the form is only for non-urgent enquiries."
+      }
+    ]
+  },
+  "subpages": {
+    "wip": {
+      "eyebrow": "In preparation",
+      "title": "This page will follow shortly.",
+      "body": "For specific enquiries please get in touch by phone or email at any time.",
+      "back": "Back to home"
+    },
+    "interpreting": {
+      "title": "Interpreting & Translation",
+      "lead": "Detail page on the first mandate — sworn interpreting and certified translations Lithuanian–German."
+    },
+    "guardianship": {
+      "title": "Legal Guardianship",
+      "lead": "Detail page on the second mandate — registered professional guardian under the BtOG."
+    },
+    "about": {
+      "title": "About Daiva Jankus",
+      "lead": "Career, qualifications, memberships."
+    }
+  }
+}

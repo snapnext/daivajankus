@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "title": "Daiva Jankus | Prisaikdintoji vertėja ir profesionali globėja | Menchengladbachas",
+    "description": "Prisaikdintoji vertėja lietuvių–vokiečių (OLG Düsseldorf) ir registruotoji profesionali globėja Menchengladbache. Du mandatai, vienas atsakomybės supratimas."
+  },
+  "lang": {
+    "de": "Deutsch",
+    "en": "English",
+    "lt": "Lietuvių",
+    "selectLabel": "Pasirinkite kalbą"
+  },
+  "header": {
+    "subline": "Vertėja · Profesionali globėja",
+    "call": "+49 173 798 3626",
+    "openMenu": "Atidaryti meniu",
+    "closeMenu": "Uždaryti meniu",
+    "callAria": "Skambinti"
+  },
+  "nav": {
+    "interpreting": "Vertimas",
+    "guardianship": "Teisinė globa",
+    "about": "Apie mane",
+    "contact": "Kontaktai",
+    "ariaLabel": "Pagrindinė navigacija"
+  },
+  "hero": {
+    "eyebrow": "OLG Düsseldorf · BtOG registracija",
+    "title": "Teisiškai įpareigojantis tarpininkavimas — kalboje ir gyvenime.",
+    "lead": "Prisaikdintoji vertėja lietuvių–vokiečių kalbai ir registruotoji profesionali globėja Menchengladbache. Du mandatai, vienas atsakomybės supratimas — teismams, institucijoms, įmonėms ir šeimoms.",
+    "ctaPrimary": "Pateikti užklausą",
+    "ctaSecondary": "Skambinti tiesiogiai",
+    "portraitCaption": "Daiva Jankus, Menchengladbachas",
+    "portraitAlt": "Daivos Jankus portretas"
+  },
+  "trust": {
+    "ariaLabel": "Kvalifikacijos",
+    "items": [
+      "Įgaliota OLG Düsseldorf",
+      "Registruotoji profesionali globėja (BtOG)",
+      "30 metų profesinė patirtis",
+      "Prisaikdinta ir įgaliota",
+      "Vokiečių ↔ Lietuvių"
+    ]
+  },
+  "mandates": {
+    "eyebrow": "Du mandatai",
+    "title": "Dvi praktikos, vienas atsakomybės supratimas.",
+    "lede": "Abu mandatai turi tą pačią DNR — valstybės kontroliuojami, asmeniškai atsakomi, be tarpinio mašininio žingsnio.",
+    "i": {
+      "eyebrow": "I mandatas",
+      "title": "Vertimas žodžiu ir raštu",
+      "subline": "Prisaikdinta OLG Düsseldorf",
+      "desc": "Vertimas teisme, institucijose, pas notarą ir derybų stale. Patvirtinti visų oficialių dokumentų vertimai. Lietuvių–vokiečių, abiem kryptimis.",
+      "fields": "Teismai · Institucijos · Verslas · Privatūs",
+      "cta": "Daugiau apie vertimą"
+    },
+    "ii": {
+      "eyebrow": "II mandatas",
+      "title": "Teisinė globa",
+      "subline": "Registruotoji profesionali globėja pagal BtOG",
+      "desc": "Profesionali teisinė globa, kurios pagrindinės sritys — turto tvarkymas, sveikatos priežiūra ir gyvenamosios vietos klausimai. Asmeninis pilnamečių asmenų, negalinčių patys tvarkyti savo reikalų, atstovavimas.",
+      "fields": "Turto tvarkymas · Sveikata · Gyvenamoji vieta · Institucijos",
+      "cta": "Daugiau apie globą"
+    }
+  },
+  "intersection": {
+    "eyebrow": "Reta kombinacija",
+    "title": "Kai teisė kalba kita kalba.",
+    "body": "Vokietijoje gyvena keliasdešimt tūkstančių žmonių, kurių gimtoji kalba — lietuvių. Daugelis jų šiandien yra senyvo amžiaus, slaugos namuose ar sudėtingose teisinėse situacijose. Kai šeima toli, o priešais — vokiškas valdiškas žodynas, atsiranda plyšys, kurio vien vertimu neužpildysi. Teisinės globos derinimas su gimtakalbiu supratimu Vokietijoje yra retas — ir dažnai būtent tai, ko reikia šeimos teismams, socialinėms tarnyboms, slaugos įstaigoms ir šeimoms su lietuviakalbiais artimaisiais.",
+    "cases": [
+      {
+        "title": "Lietuviškai kalbantys senjorai Vokietijos slaugos namuose",
+        "body": "Vaikystės kalba sugrįžta su amžiumi, o slauga vyksta vokiškai. Globėja, mokanti abi pasaulius, užpildo plyšį."
+      },
+      {
+        "title": "Šeimos su globos poreikiu ir kalbos barjeru",
+        "body": "Kai artimieji gyvena Lietuvoje, o sprendimai priimami Vokietijoje, reikalingas patikimas asmuo vietoje, paaiškinantis abiem kryptimis."
+      },
+      {
+        "title": "Teismo skirta globa su kalbiniu ir kultūriniu artumu",
+        "body": "Globos teismai vis dažniau pasirenka asmenis, kalbiškai ir kultūriškai artimus globotiniui — tinkamumą reikia pagrįsti."
+      }
+    ],
+    "cta": "Pateikti užklausą →"
+  },
+  "differentiation": {
+    "eyebrow": "Kodėl žmogus",
+    "title": "Kodėl žmogus — o ne sistema.",
+    "items": [
+      {
+        "title": "Teisinė galia",
+        "body": "Patvirtintas vertimas, vertimas teisme ir teisinė globa Vokietijoje siejami su asmeniniu įgaliojimu ir registracija. Joks algoritmas čia neįsiterpia."
+      },
+      {
+        "title": "Konfidencialumas ir atsakomybė",
+        "body": "Profesinė tylos pareiga, asmeninis jautrios medžiagos tvarkymas, atsakomybė savo vardu. Globoje — patikėjimas gyvenimo sprendimams."
+      },
+      {
+        "title": "Buvimas vietoje ir nuovoka",
+        "body": "Derybos, pokalbiai slaugoje ir susitikimai institucijose remiasi intonacija, kontekstu ir žmogišku sprendimu. Abu mandatai reikalauja buvimo, ne iškvietimo."
+      }
+    ]
+  },
+  "aboutTeaser": {
+    "eyebrow": "Apie Daivą Jankus",
+    "title": "Trys dešimtmečiai tarp dviejų kalbų — ir dviejų atsakomybių.",
+    "body": "Gimusi Lietuvoje, Vokietijoje dirbu nuo 1995 m. Bendrai prisaikdintoji žodžio ir įgaliotoji raštu vertėja lietuvių kalbai (OLG Düsseldorf). Nuo 2023 m. — registruotoji profesionali globėja pagal BtOG, su kvalifikacijos pažymėjimu ir biuru Menchengladbache. Dirbu teismuose, versle ir asmeniškai atstovauju pilnamečius asmenis — vokiečių ir lietuvių kalbomis.",
+    "cta": "Visas karjeros kelias",
+    "photoAlt": "Daivos nuotrauka prie darbo stalo"
+  },
+  "homeFaq": {
+    "eyebrow": "Atsakymai",
+    "title": "Dažni klausimai.",
+    "items": [
+      {
+        "q": "Kas Vokietijoje gali versti lietuvių kalba teisme?",
+        "a": "Vokietijos teismuose dirbti gali tik bendrai prisaikdinti vertėjai (§ 189 GVG). Daiva Jankus yra prisaikdinta lietuvių kalbai Diuseldorfo aukštesniojo žemės teismo ir gali dirbti visoje Vokietijoje."
+      },
+      {
+        "q": "Kas yra teisinė globa Vokietijoje?",
+        "a": "Teisinę globą skiria globos teismas pilnamečiams asmenims, negalintiems patys tvarkyti savo reikalų. Ji pakeitė ankstesnę globos sistemą ir orientuota į būtinybę bei globotinio gerovę (§§ 1814 ir t. BGB)."
+      },
+      {
+        "q": "Ar galiu pasiūlyti Daivą Jankus kaip globėją?",
+        "a": "Taip. Skiriant globą, globotinis ar artimieji gali pasiūlyti globos teismui konkretų asmenį. Teismas paprastai privalo šiuo pasiūlymu vadovautis, jei nėra prieštaraujančių aplinkybių (§ 1816 BGB)."
+      },
+      {
+        "q": "Kuriuose miestuose dirba Daiva Jankus?",
+        "a": "Daugiausia Šiaurės Reine-Vestfalijoje — Diuseldorfas, Kelnas, Menchengladbachas, Esenas, Dortmundas — bei kituose Vokietijos miestuose pagal susitarimą."
+      }
+    ],
+    "moreInterpreting": "Visi klausimai apie vertimą",
+    "moreGuardianship": "Visi klausimai apie globą"
+  },
+  "closing": {
+    "title": "Pasiruošę konkrečiai užklausai?",
+    "phoneLabel": "Telefonas",
+    "emailLabel": "El. paštas",
+    "formLabel": "Forma",
+    "formCta": "Pateikti užklausą →"
+  },
+  "footer": {
+    "tag": "Prisaikdintoji vertėja lietuvių–vokiečių · Registruotoji profesionali globėja pagal BtOG · Menchengladbachas",
+    "olg": "OLG Düsseldorf · BtOG · BDÜ",
+    "col1": "Mandatai",
+    "col2": "Profilis",
+    "col3": "Teisinė informacija",
+    "imprint": "Įmonės informacija",
+    "privacy": "Privatumas",
+    "copy": "© Daiva Jankus, Menchengladbachas. Visos teisės saugomos.",
+    "langs": "DE · EN · LT"
+  },
+  "breadcrumb": {
+    "home": "Pradžia",
+    "contact": "Kontaktai"
+  },
+  "kontakt": {
+    "eyebrow": "Užklausa",
+    "title": "Tiesiogiai, asmeniškai, konfidencialiai.",
+    "lead": "Trys būdai susisiekti — telefonas, el. paštas, forma. Visas užklausas asmeniškai tvarko Daiva Jankus.",
+    "channels": [
+      { "title": "Telefonas", "hint": "I–V 9–18 val. · ne darbo metu — atskambinsiu" },
+      { "title": "El. paštas", "hint": "Atsakymas per 24 darbo valandas" },
+      { "title": "Adresas", "hint": "Susitikimai vietoje ir visoje Vokietijoje", "value": "Menchengladbachas, NRW" }
+    ],
+    "form": {
+      "eyebrow": "Užklausos forma",
+      "title": "Parašykite man.",
+      "lede": "Privalomi laukai — su *. Jūsų užklausa bus tvarkoma konfidencialiai ir atsakyta asmeniškai.",
+      "name": "Vardas *",
+      "email": "El. paštas *",
+      "phone": "Telefonas (neprivaloma)",
+      "topic": "Tema *",
+      "topicPlaceholder": "Pasirinkite…",
+      "topicGroupInterpreting": "I mandatas — Vertimas žodžiu ir raštu",
+      "topicGroupGuardianship": "II mandatas — Teisinė globa",
+      "topicOptions": {
+        "dolmetschen": "Vertimas teisme / institucijoje",
+        "uebersetzung": "Patvirtintas vertimas",
+        "wirtschaft": "Verslo derybos",
+        "privat": "Privatu / civilinė metrikacija / notaras",
+        "betreuung": "Teisinė globa — užklausa",
+        "vorschlag": "Pasiūlymas tapti globėja (§ 1816 BGB)",
+        "gericht": "Užklausa iš globos teismo / institucijos",
+        "other": "Kita"
+      },
+      "urgency": "Skubumas",
+      "urgencyOptions": {
+        "standard": "Standartinis — artimiausiomis savaitėmis",
+        "bald": "Greitai — per 7–14 dienų",
+        "dringend": "Skubu — per 1–3 dienas"
+      },
+      "message": "Žinutė *",
+      "messagePlaceholder": "Trumpas situacijos aprašymas: data, dokumentai, proga…",
+      "consent": "Sutinku, kad mano duomenys būtų tvarkomi šios užklausos tikslais. *",
+      "submit": "Siųsti užklausą",
+      "submitting": "Siunčiama…",
+      "privacyNote": "Konfidencialu · BDAR · jokio debesijos saugojimo",
+      "okTitle": "Užklausa išsiųsta.",
+      "okBody": "Ačiū — Jūsų žinutė gauta. Paprastai per 24 darbo valandas atsakau asmeniškai.",
+      "okAgain": "Pateikti naują užklausą",
+      "errorTitle": "Įvyko klaida.",
+      "errorBody": "Bandykite dar kartą arba paskambinkite tiesiogiai: +49 173 798 3626.",
+      "errors": {
+        "name": "Įveskite savo vardą.",
+        "email": "Įveskite teisingą el. pašto adresą.",
+        "topic": "Pasirinkite temą.",
+        "message": "Trumpai aprašykite užklausą.",
+        "consent": "Patvirtinkite duomenų tvarkymo sutikimą."
+      }
+    },
+    "hinweise": [
+      {
+        "title": "Konfidencialumas",
+        "body": "Profesinė tylos pareiga. Asmeninis tvarkymas. Jokio perdavimo trečiosioms šalims. Jokio debesijos saugojimo jautriai medžiagai."
+      },
+      {
+        "title": "Užklausų kalbos",
+        "body": "Užklausos priimamos vokiečių, lietuvių ir anglų kalbomis — bus tvarkoma jūsų pasirinkta kalba."
+      },
+      {
+        "title": "Skubūs atvejai",
+        "body": "Skubiais atvejais (policija, ikiteisminis suėmimas, klinika) prašome skambinti tiesiogiai — forma — tik kai laiko yra."
+      }
+    ]
+  },
+  "subpages": {
+    "wip": {
+      "eyebrow": "Rengiama",
+      "title": "Šis puslapis netrukus pasirodys.",
+      "body": "Konkretiems klausimams kreipkitės telefonu arba el. paštu bet kuriuo metu.",
+      "back": "Atgal į pradžią"
+    },
+    "interpreting": {
+      "title": "Vertimas žodžiu ir raštu",
+      "lead": "Pirmojo mandato detalės — prisaikdintas vertimas ir patvirtinti vertimai lietuvių–vokiečių."
+    },
+    "guardianship": {
+      "title": "Teisinė globa",
+      "lead": "Antrojo mandato detalės — registruotoji profesionali globėja pagal BtOG."
+    },
+    "about": {
+      "title": "Apie Daivą Jankus",
+      "lead": "Karjera, kvalifikacijos, narystės."
+    }
+  }
+}
