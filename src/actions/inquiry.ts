@@ -58,7 +58,12 @@ export async function submitInquiry(
 
   const apiKey = process.env.RESEND_API_KEY;
   const from = process.env.RESEND_FROM ?? "Daiva Jankus <onboarding@resend.dev>";
-  const to = process.env.RESEND_TO ?? CONTACT.email;
+  // RESEND_TO supports a single address or a comma-separated list, e.g.
+  //   "daivajankus@t-online.de,max@snapnext.de"
+  const to = (process.env.RESEND_TO ?? CONTACT.email)
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean);
 
   const subject = subjectFor(data.topic, data.name);
   const html = htmlBody(data, locale);
