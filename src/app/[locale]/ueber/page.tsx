@@ -62,6 +62,7 @@ function PageBody() {
         title={t("bio.title")}
         paragraphs={bioParas}
         photoAlt={t("bio.photoAlt")}
+        photoSrc="/images/daiva-werdegang.png"
       />
 
       <Timeline
