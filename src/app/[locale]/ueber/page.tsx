@@ -3,13 +3,23 @@ import { hasLocale, useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import {
+  alternatesFor,
+  breadcrumbLD,
+  openGraphFor,
+  profilePageLD,
+  twitterFor,
+} from "@/lib/seo";
 
 import { Bio } from "@/components/subpages/Bio";
 import { CredentialsGrid } from "@/components/subpages/CredentialsGrid";
 import { Subhero } from "@/components/subpages/Subhero";
 import { SubpageClosingCta } from "@/components/subpages/SubpageClosingCta";
 import { Timeline } from "@/components/subpages/Timeline";
+import { JsonLd } from "@/components/seo/JsonLd";
+
+const PATH = "/ueber";
 
 export async function generateMetadata({
   params,
@@ -19,7 +29,15 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "ueber" });
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  const title = t("metaTitle");
+  const description = t("metaDescription");
+  return {
+    title,
+    description,
+    alternates: alternatesFor(locale as Locale, PATH),
+    openGraph: openGraphFor({ locale: locale as Locale, path: PATH, title, description }),
+    twitter: twitterFor({ title, description }),
+  };
 }
 
 export default async function UeberPage({
@@ -30,7 +48,24 @@ export default async function UeberPage({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
-  return <PageBody />;
+
+  const t = await getTranslations({ locale, namespace: "ueber" });
+  const tBc = await getTranslations({ locale, namespace: "breadcrumb" });
+
+  const ld = [
+    breadcrumbLD(locale as Locale, [
+      { name: tBc("home"), path: "/" },
+      { name: t("breadcrumb"), path: PATH },
+    ]),
+    profilePageLD(locale as Locale, t("hero.title"), t("hero.lead")),
+  ];
+
+  return (
+    <>
+      <PageBody />
+      <JsonLd data={ld} />
+    </>
+  );
 }
 
 function PageBody() {

@@ -91,9 +91,39 @@ src/
 
 `Hero.tsx` (portrait) and `AboutTeaser.tsx` (square photo) are the two slots on the homepage.
 
+## SEO / AIO / GEO
+
+Everything search engines, social platforms and LLMs need is generated automatically:
+
+| Artefact | Where | Notes |
+| --- | --- | --- |
+| `robots.txt` | `/robots.txt` (from `app/robots.ts`) | `Allow: /` for all UAs, points at the sitemap. |
+| `sitemap.xml` | `/sitemap.xml` (from `app/sitemap.ts`) | All 5 routes × 3 locales = 15 URLs, each with `<xhtml:link rel="alternate" hreflang="…">` for the other locales. |
+| `llms.txt` | `/llms.txt` (`public/llms.txt`) | [llmstxt.org](https://llmstxt.org) format — site summary + curated link list, the format LLM agents read first. |
+| Open Graph image | `/opengraph-image` (from `app/opengraph-image.tsx`, edge runtime) | Dynamic 1200×630 PNG with the DJ mark, name, tagline. |
+| `<meta>` OG/Twitter | per-page in each `generateMetadata` | Title, description, `og:locale`, `alternateLocale` for the other two locales. |
+| Canonical + `hreflang` | per-page via `alternatesFor()` in `lib/seo.ts` | Plus `x-default` pointing to `/de/…`. |
+| `application/ld+json` | per-page via `<JsonLd data={…} />` | See below. |
+
+**Structured data emitted (per page):**
+
+- **All pages**: `Person` + `LocalBusiness` (in `app/[locale]/layout.tsx`)
+- **`/`**: `FAQPage` (the homepage's top-4 questions)
+- **`/dolmetschen`**: `BreadcrumbList`, `LegalService`, `FAQPage` (8 questions)
+- **`/rechtliche-betreuung`**: `BreadcrumbList`, `ProfessionalService`, `FAQPage` (8 questions)
+- **`/ueber`**: `BreadcrumbList`, `ProfilePage`
+- **`/kontakt`**: `BreadcrumbList`, `ContactPage`
+
+JSON-LD builders live in [`src/lib/seo.ts`](src/lib/seo.ts). To add new schemas (e.g. `Article` for blog posts), add a builder there and render it via `<JsonLd data={builder(...)} />`.
+
+**Configure for production**:
+
+1. Set `NEXT_PUBLIC_SITE_URL` to the real domain (e.g. `https://daivajankus.de`). Without this, robots/sitemap/OG tags use the default `https://daivajankus.de` which may be wrong for staging.
+2. After first deploy, submit the sitemap once in [Google Search Console](https://search.google.com/search-console) and [Bing Webmaster](https://www.bing.com/webmasters) (`https://YOUR-DOMAIN/sitemap.xml`).
+
 ## Deployment
 
-Built for Vercel (zero config). Set `RESEND_API_KEY`, `RESEND_FROM`, `RESEND_TO` as project env vars and ship.
+Built for Vercel (zero config). Set `NEXT_PUBLIC_SITE_URL`, `RESEND_API_KEY`, `RESEND_FROM`, `RESEND_TO` as project env vars and ship.
 
 ## Scripts
 

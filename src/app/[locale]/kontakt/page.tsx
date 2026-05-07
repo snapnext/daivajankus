@@ -8,7 +8,17 @@ import { Link } from "@/i18n/navigation";
 import { ContactChannels } from "@/components/kontakt/ContactChannels";
 import { ContactForm } from "@/components/kontakt/ContactForm";
 import { Hinweise } from "@/components/kontakt/Hinweise";
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import {
+  alternatesFor,
+  breadcrumbLD,
+  contactPageLD,
+  openGraphFor,
+  twitterFor,
+} from "@/lib/seo";
+import { JsonLd } from "@/components/seo/JsonLd";
+
+const PATH = "/kontakt";
 
 export async function generateMetadata({
   params,
@@ -18,7 +28,15 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "kontakt" });
-  return { title: `${t("title")} | Daiva Jankus` };
+  const title = t("title");
+  const description = t("lead");
+  return {
+    title,
+    description,
+    alternates: alternatesFor(locale as Locale, PATH),
+    openGraph: openGraphFor({ locale: locale as Locale, path: PATH, title, description }),
+    twitter: twitterFor({ title, description }),
+  };
 }
 
 export default async function KontaktPage({
@@ -33,6 +51,14 @@ export default async function KontaktPage({
   const t = await getTranslations({ locale, namespace: "kontakt" });
   const tForm = await getTranslations({ locale, namespace: "kontakt.form" });
   const tBc = await getTranslations({ locale, namespace: "breadcrumb" });
+
+  const ld = [
+    breadcrumbLD(locale as Locale, [
+      { name: tBc("home"), path: "/" },
+      { name: tBc("contact"), path: PATH },
+    ]),
+    contactPageLD(locale as Locale, t("title"), t("lead")),
+  ];
 
   return (
     <>
@@ -67,6 +93,7 @@ export default async function KontaktPage({
       </section>
 
       <Hinweise />
+      <JsonLd data={ld} />
     </>
   );
 }

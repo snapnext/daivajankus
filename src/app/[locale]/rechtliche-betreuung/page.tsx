@@ -5,7 +5,15 @@ import { notFound } from "next/navigation";
 
 import { Link } from "@/i18n/navigation";
 import { CONTACT } from "@/lib/contact";
-import { routing } from "@/i18n/routing";
+import { routing, type Locale } from "@/i18n/routing";
+import {
+  alternatesFor,
+  breadcrumbLD,
+  faqPageLD,
+  openGraphFor,
+  professionalServiceLD,
+  twitterFor,
+} from "@/lib/seo";
 
 import { Crosslink } from "@/components/subpages/Crosslink";
 import { DifferentiationBand } from "@/components/subpages/DifferentiationBand";
@@ -20,6 +28,9 @@ import { Subhero } from "@/components/subpages/Subhero";
 import { SubpageClosingCta } from "@/components/subpages/SubpageClosingCta";
 import { SubpageFaq } from "@/components/subpages/SubpageFaq";
 import { Twocol } from "@/components/subpages/Twocol";
+import { JsonLd } from "@/components/seo/JsonLd";
+
+const PATH = "/rechtliche-betreuung";
 
 export async function generateMetadata({
   params,
@@ -29,7 +40,15 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "betreuung" });
-  return { title: t("metaTitle"), description: t("metaDescription") };
+  const title = t("metaTitle");
+  const description = t("metaDescription");
+  return {
+    title,
+    description,
+    alternates: alternatesFor(locale as Locale, PATH),
+    openGraph: openGraphFor({ locale: locale as Locale, path: PATH, title, description }),
+    twitter: twitterFor({ title, description }),
+  };
 }
 
 export default async function BetreuungPage({
@@ -40,7 +59,26 @@ export default async function BetreuungPage({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
-  return <PageBody />;
+
+  const t = await getTranslations({ locale, namespace: "betreuung" });
+  const tBc = await getTranslations({ locale, namespace: "breadcrumb" });
+  const faqItems = t.raw("faq.items") as Array<{ q: string; a: string }>;
+
+  const ld = [
+    breadcrumbLD(locale as Locale, [
+      { name: tBc("home"), path: "/" },
+      { name: t("breadcrumb"), path: PATH },
+    ]),
+    professionalServiceLD(locale as Locale, t("hero.title"), t("hero.lead")),
+    faqPageLD(faqItems),
+  ];
+
+  return (
+    <>
+      <PageBody />
+      <JsonLd data={ld} />
+    </>
+  );
 }
 
 function PageBody() {

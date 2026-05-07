@@ -12,6 +12,13 @@ import { Header } from "@/components/chrome/Header";
 import { FloatingCall } from "@/components/chrome/FloatingCall";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { routing, type Locale } from "@/i18n/routing";
+import { SITE_URL, SITE_NAME } from "@/lib/site";
+import {
+  alternatesFor,
+  openGraphFor,
+  personAndBusinessLD,
+  twitterFor,
+} from "@/lib/seo";
 
 const barlow = Barlow({
   subsets: ["latin", "latin-ext"],
@@ -32,15 +39,29 @@ export async function generateMetadata({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) return {};
   const t = await getTranslations({ locale, namespace: "metadata" });
+  const title = t("title");
+  const description = t("description");
   return {
-    title: t("title"),
-    description: t("description"),
-    alternates: {
-      canonical: `/${locale}`,
-      languages: Object.fromEntries(
-        routing.locales.map((l) => [l, `/${l}`]),
-      ),
+    metadataBase: new URL(SITE_URL),
+    title: { default: title, template: `%s | ${SITE_NAME}` },
+    description,
+    alternates: alternatesFor(locale as Locale, "/"),
+    openGraph: openGraphFor({
+      locale: locale as Locale,
+      path: "/",
+      title,
+      description,
+    }),
+    twitter: twitterFor({ title, description }),
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true, "max-image-preview": "large" },
     },
+    authors: [{ name: SITE_NAME }],
+    creator: SITE_NAME,
+    publisher: SITE_NAME,
+    formatDetection: { telephone: true, email: true, address: true },
   };
 }
 
@@ -63,7 +84,7 @@ export default async function LocaleLayout({
           <main id="top">{children}</main>
           <Footer />
           <FloatingCall />
-          <JsonLd />
+          <JsonLd data={personAndBusinessLD()} />
         </NextIntlClientProvider>
       </body>
     </html>

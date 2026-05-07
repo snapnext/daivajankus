@@ -1,4 +1,6 @@
-import { setRequestLocale } from "next-intl/server";
+import { hasLocale } from "next-intl";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
 
 import { Hero } from "@/components/home/Hero";
 import { TrustBar } from "@/components/home/TrustBar";
@@ -8,9 +10,9 @@ import { Differentiation } from "@/components/home/Differentiation";
 import { AboutTeaser } from "@/components/home/AboutTeaser";
 import { HomeFaq } from "@/components/home/HomeFaq";
 import { ClosingCta } from "@/components/home/ClosingCta";
-import { hasLocale } from "next-intl";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { routing } from "@/i18n/routing";
-import { notFound } from "next/navigation";
+import { faqPageLD } from "@/lib/seo";
 
 export default async function HomePage({
   params,
@@ -20,6 +22,10 @@ export default async function HomePage({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
+
+  // Emit a FAQPage schema for the top-of-funnel questions on the homepage.
+  const t = await getTranslations({ locale, namespace: "homeFaq" });
+  const faqItems = t.raw("items") as Array<{ q: string; a: string }>;
 
   return (
     <>
@@ -31,6 +37,7 @@ export default async function HomePage({
       <AboutTeaser />
       <HomeFaq />
       <ClosingCta />
+      <JsonLd data={faqPageLD(faqItems)} />
     </>
   );
 }

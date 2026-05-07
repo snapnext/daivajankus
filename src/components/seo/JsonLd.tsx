@@ -1,57 +1,20 @@
-import { CONTACT } from "@/lib/contact";
-
-const data = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Person",
-      name: "Daiva Jankus",
-      jobTitle: [
-        "Vereidigte Dolmetscherin Litauisch–Deutsch",
-        "Registrierte Berufsbetreuerin",
-      ],
-      worksFor: {
-        "@type": "LocalBusiness",
-        name: "Daiva Jankus",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: CONTACT.city,
-          addressCountry: CONTACT.country,
-        },
-      },
-      knowsLanguage: ["de", "lt", "en"],
-      hasOccupation: [
-        {
-          "@type": "Occupation",
-          name: "Sworn Court Interpreter Lithuanian–German",
-          occupationLocation: { "@type": "State", name: "Nordrhein-Westfalen" },
-        },
-        {
-          "@type": "Occupation",
-          name: "Professional Legal Guardian (BtOG)",
-          occupationLocation: { "@type": "State", name: "Nordrhein-Westfalen" },
-        },
-      ],
-    },
-    {
-      "@type": "LocalBusiness",
-      name: "Daiva Jankus",
-      address: {
-        "@type": "PostalAddress",
-        addressLocality: CONTACT.city,
-        addressCountry: CONTACT.country,
-      },
-      telephone: CONTACT.phone,
-      email: CONTACT.email,
-    },
-  ],
-};
-
-export function JsonLd() {
+/**
+ * Inlines a JSON-LD `<script>` tag. Pass any plain object (or array of objects)
+ * — see lib/seo.ts for builders covering Person, LocalBusiness, Breadcrumb,
+ * FAQPage, LegalService, ProfessionalService, ProfilePage, ContactPage.
+ */
+export function JsonLd({ data }: { data: object | object[] }) {
+  const json = Array.isArray(data) ? data : [data];
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
+    <>
+      {json.map((entry, idx) => (
+        <script
+          // eslint-disable-next-line react/no-array-index-key
+          key={idx}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(entry) }}
+        />
+      ))}
+    </>
   );
 }
