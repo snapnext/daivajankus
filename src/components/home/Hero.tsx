@@ -12,10 +12,10 @@ export function Hero() {
       <div className="container hero-grid">
         <div className="hero-portrait">
           <ImageSlot
+            src="/images/daiva-portrait.png"
             shape="rect"
             filter="low"
             alt={t("portraitAlt")}
-            placeholder={t("portraitAlt")}
             priority
           />
           <div className="caption">{t("portraitCaption")}</div>

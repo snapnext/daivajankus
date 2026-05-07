@@ -10,10 +10,10 @@ export function AboutTeaser() {
       <div className="container">
         <div className="about-teaser-grid">
           <ImageSlot
+            src="/images/daiva-schreibtisch.png"
             shape="square"
             filter="mid"
             alt={t("photoAlt")}
-            placeholder={t("photoAlt")}
           />
           <div className="body">
             <span className="eyebrow">{t("eyebrow")}</span>
