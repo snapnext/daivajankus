@@ -18,6 +18,32 @@ function pickLocale(raw: FormDataEntryValue | null): Locale {
     : routing.defaultLocale;
 }
 
+function stripQuotes(value: string): string {
+  return value.trim().replace(/^["']|["']$/g, "").trim();
+}
+
+function isValidAddress(value: string): boolean {
+  // Bare email like a@b.c
+  return /^[^\s<>@]+@[^\s<>@]+\.[^\s<>@]+$/.test(value);
+}
+
+/**
+ * Accept either `email@example.com` or `Name <email@example.com>`. Returns
+ * the sanitised value, or `null` if the input is missing/malformed (caller
+ * should fall back to a known-good default).
+ */
+function sanitizeAddress(raw: string | undefined): string | null {
+  if (!raw) return null;
+  const cleaned = stripQuotes(raw);
+  if (!cleaned) return null;
+  // "Name <email@x.y>"
+  const named = /^(.+?)\s*<\s*([^\s<>@]+@[^\s<>@]+\.[^\s<>@]+)\s*>$/.exec(cleaned);
+  if (named) return `${named[1].trim()} <${named[2]}>`;
+  // Bare email
+  if (isValidAddress(cleaned)) return cleaned;
+  return null;
+}
+
 /**
  * Server Action invoked by the contact form. Validates input, sends a notification
  * to the configured RESEND_TO mailbox, and returns a discriminated state object
@@ -57,13 +83,19 @@ export async function submitInquiry(
   if (data.company_url) return { status: "ok" };
 
   const apiKey = process.env.RESEND_API_KEY;
-  const from = process.env.RESEND_FROM ?? "Daiva Jankus <onboarding@resend.dev>";
+  // Defensive normalization — strip surrounding whitespace and any literal
+  // quote characters that can sneak in when env values are pasted into
+  // hosting UIs (Vercel, Netlify) that don't parse .env-style quoting.
+  const from = sanitizeAddress(process.env.RESEND_FROM) ??
+    "Daiva Jankus <onboarding@resend.dev>";
   // RESEND_TO supports a single address or a comma-separated list, e.g.
   //   "daivajankus@t-online.de,max@snapnext.de"
-  const to = (process.env.RESEND_TO ?? CONTACT.email)
+  const rawTo = stripQuotes(process.env.RESEND_TO ?? CONTACT.email);
+  const to = rawTo
     .split(",")
     .map((s) => s.trim())
-    .filter(Boolean);
+    .filter((s) => isValidAddress(s));
+  if (to.length === 0) to.push(CONTACT.email);
 
   const subject = subjectFor(data.topic, data.name);
   const html = htmlBody(data, locale);
