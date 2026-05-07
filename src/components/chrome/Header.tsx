@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { CONTACT } from "@/lib/contact";
 import type { Locale } from "@/i18n/routing";
 
+import { BrandMark } from "./BrandMark";
 import { HeaderShell } from "./HeaderShell";
 import { LangToggle } from "./LangToggle";
 import { MobileSheet } from "./MobileSheet";
@@ -25,8 +26,11 @@ export function Header({ locale }: { locale: Locale }) {
     <HeaderShell>
       <div className="container header-inner">
         <Link href="/" className="wordmark" aria-label="Daiva Jankus">
-          <span className="wordmark-name">Daiva Jankus</span>
-          <span className="wordmark-sub">{t("subline")}</span>
+          <BrandMark />
+          <span className="wordmark-text">
+            <span className="wordmark-name">Daiva Jankus</span>
+            <span className="wordmark-sub">{t("subline")}</span>
+          </span>
         </Link>
         <nav className="nav" aria-label={tn("ariaLabel")}>
           {NAV_ITEMS.map((item) => (

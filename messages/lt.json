@@ -230,18 +230,286 @@
       "title": "Šis puslapis netrukus pasirodys.",
       "body": "Konkretiems klausimams kreipkitės telefonu arba el. paštu bet kuriuo metu.",
       "back": "Atgal į pradžią"
+    }
+  },
+  "dolmetschen": {
+    "metaTitle": "Vertėja lietuvių–vokiečių | Prisaikdinta OLG Düsseldorf | Daiva Jankus",
+    "metaDescription": "Prisaikdintoji vertėja žodžiu ir raštu lietuvių–vokiečių kalboms Šiaurės Reine-Vestfalijoje. Įgaliota OLG Düsseldorf. Vertimas teisme, patvirtinti vertimai, verslo susitikimai.",
+    "breadcrumb": "Vertimas",
+    "hero": {
+      "eyebrow": "I mandatas · OLG Düsseldorf",
+      "title": "Vertimas žodžiu ir raštu — lietuvių–vokiečių.",
+      "lead": "Bendrai prisaikdintoji žodžio ir įgaliotoji raštu vertėja lietuvių kalbai, įgaliota Diuseldorfo aukštesniojo žemės teismo. Daugiau kaip tris dešimtmečius dirbu teismuose, versle ir privačiuose reikaluose — Šiaurės Reine-Vestfalijoje ir visoje Vokietijoje.",
+      "ctaPrimary": "Užsakyti susitikimą"
     },
-    "interpreting": {
-      "title": "Vertimas žodžiu ir raštu",
-      "lead": "Pirmojo mandato detalės — prisaikdintas vertimas ir patvirtinti vertimai lietuvių–vokiečių."
+    "services": {
+      "eyebrow": "Veiklos sritys",
+      "title": "Trys sritys, vienas patikimumas.",
+      "lede": "Kiekvienas susitikimas reikalauja kitokio tikslumo. Nesikeičia teisinė kiekvieno ištarto ir užrašyto žodžio reikšmė.",
+      "items": [
+        {
+          "title": "Teismai ir institucijos",
+          "desc": "Vertimas teismo posėdžiuose, pas notarą ir valstybės įstaigose. Patvirtinti dokumentų vertimai bylų ir oficialių raštų reikmėms — pripažįstami visoje Vokietijoje.",
+          "bullets": [
+            "Teismo posėdžiai, apklausos, liudijimai",
+            "Notaro patvirtinimai, įgaliojimai",
+            "Policija, civilinė metrikacija, migracija",
+            "Patvirtinti vertimai bylų reikmėms",
+            "Ikiteisminis suėmimas, skubūs atvejai"
+          ]
+        },
+        {
+          "title": "Verslas",
+          "desc": "Tikslumo reikalaujantis vertimas derybose, sutarčių pasirašymuose, gamyklų vizituose ir compliance procedūrose tarp Vokietijos ir Lietuvos partnerių.",
+          "bullets": [
+            "Sutarčių derybos, pasirašymai",
+            "Gamyklų vizitai ir auditai",
+            "Compliance ir vidaus tyrimai",
+            "M&A sandorių lydėjimas",
+            "Valdybos ir tarybų posėdžiai"
+          ]
+        },
+        {
+          "title": "Privatūs klientai",
+          "desc": "Asmeninės progos, kuriose kalba sukelia teisinių pasekmių — nuo civilinės metrikacijos iki paveldėjimo bylų, nuo diplomų iki medicininio lydėjimo.",
+          "bullets": [
+            "Santuokos sudarymas",
+            "Paveldėjimo ir šeimos teisė",
+            "Pažymos, diplomai, dokumentai",
+            "Asmeninis susirašinėjimas",
+            "Medicininis lydėjimas"
+          ]
+        }
+      ]
     },
-    "guardianship": {
-      "title": "Teisinė globa",
-      "lead": "Antrojo mandato detalės — registruotoji profesionali globėja pagal BtOG."
+    "uebersetzungen": {
+      "eyebrow": "Įgaliotoji vertėja",
+      "title": "Patvirtinti vertimai — teisiškai galiojantys, asmeniškai parengti.",
+      "p1": "Patvirtintame vertime yra įgaliotosios vertėjos antspaudas, parašas ir tvirtinamasis tekstas. Jis galioja Vokietijos teismuose, institucijose, pas notarus ir civilinės metrikacijos įstaigose — su apostile pripažįstamas ir užsienyje.",
+      "p2": "Dažniausi dokumentai: gimimo, santuokos ir mirties liudijimai; diplomai ir pažymėjimai; įgaliojimai; sutartys; teismų sprendimai ir procesiniai raštai; juridinių asmenų registro išrašai; notariniai aktai; paveldėjimo dokumentai.",
+      "h2": "Atlikimas",
+      "list": [
+        "Standartinis terminas — 3–5 darbo dienos",
+        "Skubus atlikimas pagal susitarimą",
+        "Asmeninis tvarkymas — jokio debesijos saugojimo",
+        "Konfidencialumas pagal BDAR"
+      ]
     },
-    "about": {
-      "title": "Apie Daivą Jankus",
-      "lead": "Karjera, kvalifikacijos, narystės."
+    "locations": {
+      "eyebrow": "Veiklos teritorija",
+      "title": "Pasiekiama NRW ir visoje Vokietijoje.",
+      "p1": "Veiklos centras — Šiaurės Reinas-Vestfalija, su trumpais atstumais iki teismų Diuseldorfe, Kelne, Menchengladbache ir Krėfelde. Pagal susitarimą keliauju į ilgalaikius susitikimus, verslo derybas ir gamyklų vizitus visoje Vokietijoje.",
+      "cities": ["Diuseldorfas", "Kelnas", "Menchengladbachas", "Krėfeldas", "Esenas", "Duisburgas", "Achenas", "Vupertalis", "Dortmundas"],
+      "note": "Visoje Vokietijoje pagal susitarimą"
+    },
+    "differentiation": {
+      "eyebrow": "Kodėl žmogus",
+      "title": "Kodėl žmogus — o ne sistema.",
+      "items": [
+        {
+          "title": "Teisinė galia",
+          "body": "Patvirtinti vertimai ir vertimas teisme Vokietijoje siejami su asmenine priesaika (§ 189 GVG). Tai, kas pasakoma ar užrašoma čia, galioja teisme."
+        },
+        {
+          "title": "Konfidencialumas",
+          "body": "Profesinė tylos pareiga, asmeninis jautrios medžiagos tvarkymas, jokio debesijos saugojimo, jokio perdavimo tretiesiems."
+        },
+        {
+          "title": "Buvimas vietoje",
+          "body": "Derybos gyvuoja iš intonacijos, pauzės ir akių kontakto. Pasiruošusi keliauti visoje Vokietijoje, taip pat trumpu pranešimu."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Dažni klausimai.",
+      "items": [
+        { "q": "Kas Vokietijoje gali versti lietuvių kalba teisme?", "a": "Vokietijos teismuose dirbti gali tik bendrai prisaikdinti vertėjai (§ 189 GVG). Daiva Jankus yra prisaikdinta lietuvių kalbai Diuseldorfo aukštesniojo žemės teismo." },
+        { "q": "Kiek kainuoja prisaikdintosios lietuvių vertėjos paslaugos?", "a": "Teismų užsakymams taikomas Teisminio atlyginimo įstatymas (JVEG). Privačius ir verslo užsakymus skaičiuoju pagal apimtį." },
+        { "q": "Kuo skiriasi vertimas žodžiu ir raštu?", "a": "Žodinis vertimas — tai vertimas realiu laiku, raštinis — užrašytasis. Abiejose srityse reikalinga atskira priesaika; Daiva Jankus įgaliota abiem." },
+        { "q": "Ar pripažįstami patvirtinti vertimai?", "a": "Taip — institucijose, teismuose ir pas notarus visoje Vokietijoje. Naudojant užsienyje, gali prireikti apostilės." },
+        { "q": "Kokie dokumentai verčiami dažniausiai?", "a": "Gimimo, santuokos ir mirties liudijimai; diplomai ir pažymėjimai; įgaliojimai; sutartys; teismų sprendimai ir procesiniai raštai; juridinių asmenų registro išrašai." },
+        { "q": "Kaip greitai galima užsisakyti?", "a": "Įprastiniai susitikimai derinami likus vienai-dviem savaitėms. Skubūs atvejai (policija, ikiteisminis suėmimas) ir trumpu pranešimu." },
+        { "q": "Ar užtikrinamas konfidencialumas?", "a": "Taip. Profesinė tylos pareiga, asmeninis tvarkymas, jokio debesijos saugojimo, baigus darbą sunaikinama pagal BDAR." },
+        { "q": "Kuris atlyginimo įstatymas galioja teisme (JVEG)?", "a": "Teismų užsakymams atlyginimas ir kelionės išlaidos skaičiuojami pagal Teisminio atlyginimo ir kompensacijos įstatymą (JVEG). Konkretų sąskaitos paaiškinimą pateikiu po susitikimo." }
+      ]
+    },
+    "crosslink": {
+      "eyebrow": "Taip pat aktualu",
+      "body": "Jei jūsų reikalas peržengia vertimo ribas — pavyzdžiui, jei lietuviakalbis asmuo nebegali pats priimti sprendimų — į pagalbą ateina II mandatas.",
+      "cta": "Į teisinę globą"
+    },
+    "closing": {
+      "title": "Užsakyti susitikimą arba patvirtintą vertimą."
+    }
+  },
+  "betreuung": {
+    "metaTitle": "Profesionali globėja Menchengladbache | LT–DE | Daiva Jankus",
+    "metaDescription": "Registruotoji profesionali globėja pagal BtOG Menchengladbache. Turto, sveikatos ir gyvenamosios vietos klausimai. Lietuvių ir vokiečių kalbos.",
+    "breadcrumb": "Teisinė globa",
+    "hero": {
+      "eyebrow": "II mandatas · BtOG registracija",
+      "title": "Teisinė globa — asmeniška, kalbinė, įpareigojanti.",
+      "lead": "Registruotoji profesionali globėja pagal Globėjų organizavimo įstatymą (BtOG), su kvalifikacijos pažymėjimu ir biuru Menchengladbache. Lietuvių ir vokiečių kalbos kaip darbo kalbos — reta kombinacija, naudinga šeimos teismams, socialinėms tarnyboms ir šeimoms.",
+      "ctaPrimary": "Užklausa dėl globos"
+    },
+    "scope": {
+      "eyebrow": "Pareigų sritys",
+      "title": "Trys atsakomybės sritys.",
+      "lede": "Pareigų sritys nustatomos globos teismo kiekvienu atveju atskirai. Dažnai derinamos turto, sveikatos ir gyvenamosios vietos sritys — atskirai arba kartu.",
+      "items": [
+        {
+          "title": "Turto tvarkymas",
+          "desc": "Pajamų, sąskaitų ir nuolatinių įsipareigojimų valdymas. Mokesčių klausimai, sutartys, turto apsauga globotinio interesais.",
+          "bullets": [
+            "Sąskaitų ir pajamų valdymas",
+            "Pensijos ir socialinės išmokos",
+            "Sąskaitų ir sutarčių tvarkymas",
+            "Mokesčių ir turto klausimai",
+            "Atskaitomybė teismui"
+          ]
+        },
+        {
+          "title": "Sveikatos priežiūra",
+          "desc": "Atstovavimas medicininiuose sprendimuose, bendravimas su gydytojais ir slaugos įstaigomis, paciento teisių užtikrinimas.",
+          "bullets": [
+            "Sutikimai ir informavimas",
+            "Ryšys su klinika ir slauga",
+            "Paciento valia ir planavimas",
+            "Dalyvavimas gydymo susitikimuose",
+            "Pagalba priimant sprendimus"
+          ]
+        },
+        {
+          "title": "Gyvenamoji vieta ir socialiniai reikalai",
+          "desc": "Pagalba būsto ir slaugos klausimais, slaugos namų sutartys, prašymai dėl socialinių išmokų, ryšys su tiekėjais ir institucijomis.",
+          "bullets": [
+            "Būsto ir globos namų reikalai",
+            "Sutartys, gyvenamosios vietos nustatymas",
+            "Socialinė tarnyba, slaugos kasa",
+            "Prašymai ir sprendimai",
+            "Ryšys su tiekėjais ir institucijomis"
+          ]
+        }
+      ]
+    },
+    "what": {
+      "eyebrow": "Pagrindai",
+      "title": "Ką teisinė globa reiškia — ir ko ne.",
+      "h1": "Teisinis pagrindas",
+      "p1": "Teisinę globą skiria globos teismas pilnamečiui asmeniui, kuris dėl sveikatos ar pažintinio pobūdžio apribojimo nebegali patys tvarkyti savo reikalų visiškai ar iš dalies.",
+      "p2": "Globa apribota tuo, kas būtina, ir orientuota į globotinio gerovę bei valią (§§ 1814 ir t. BGB). Pareigų apimtis ir trukmę nustato teismas kiekvienu atveju ir reguliariai peržiūri.",
+      "h2": "Ko ji nėra",
+      "list": [
+        "Globa nėra teisinis nepilnametystės nustatymas — jis panaikintas 1992 m.",
+        "Ji nepakeičia globotinio valios — ji jį palaiko.",
+        "Ji nėra bendra — pareigų sritys yra tiksliai pritaikytos.",
+        "Ji nėra nuolatinė — baigiasi, kai nebėra reikalinga."
+      ]
+    },
+    "vorschlag": {
+      "eyebrow": "Globėjos pasirinkimas",
+      "title": "Pasiūlyti Daivą Jankus globėja.",
+      "h1": "Teisinis pagrindas",
+      "p1": "Skiriant globą, globotinis ar artimieji turi pasiūlymo teisę (§ 1816 BGB). Globos teismas paprastai privalo šiuo pasiūlymu vadovautis, jei nėra prieštaraujančių aplinkybių.",
+      "p2": "Kalbinis ir kultūrinis artumas globotiniui yra tinkamumo vertinimo dalis — sritis, kurioje lietuviakalbės šeimos Vokietijoje yra sistemingai neaprūpintos.",
+      "h2": "Praktinė eiga",
+      "steps": [
+        "Pirmas kontaktas — trumpas situacijos aprašymas telefonu arba forma.",
+        "Asmeninis pokalbis — tinkamumo vertinimas ir numatomų pareigų aptarimas.",
+        "Pasiūlymas teismui — rašytinis pasiūlymas su kvalifikacijos pažymėjimu ir sutikimu.",
+        "Skyrimas — globos teismas patikrina ir paskiria."
+      ]
+    },
+    "litauisch": {
+      "eyebrow": "Kalbinė globa",
+      "title": "Globa globotinio gimtąja kalba.",
+      "body": "Vaikystės kalba sugrįžta su amžiumi, dažnai ir esant pažintiniams sutrikimams. Lietuviakalbis asmuo, kuris dešimtmečius gyveno ir dirbo vokiškai, slaugos namuose gali staiga norėti — ar gebėti — suprasti tik lietuviškai. Kai sprendžiami gydymo, globos namų sutarties ar turto klausimai, kalba lemia procedūros orumą.",
+      "cases": [
+        { "title": "Pasitikėjimas vietoj vertimo", "body": "Kai pati globėja kalba lietuviškai, dingsta trečiojo asmens filtras. Asmeniniai pokalbiai išlieka asmeniški." },
+        { "title": "Ryšys su šeima Lietuvoje", "body": "Tėvynėje gyvenantys artimieji gali būti įtraukiami savo kalba — į sprendimus, susijusius su visu gyvenimu." },
+        { "title": "Tinkamumas, kurį pripažįsta teismas", "body": "Kalbinis ir kultūrinis artumas pripažįstami kaip tinkamumo kriterijai pagal § 1816 BGB — sąlyga, kurią reikia formaliai pagrįsti." }
+      ]
+    },
+    "differentiation": {
+      "eyebrow": "Kodėl žmogus",
+      "title": "Kodėl asmuo — o ne sistema.",
+      "items": [
+        { "title": "Asmeninė registracija", "body": "Profesionalios globėjos nuo 2023 m. pagal BtOG turi būti asmeniškai registruotos — su kvalifikacija, tinkamumu ir profesine atsakomybės draudimu." },
+        { "title": "Patikėjimas gyvenimo sprendimams", "body": "Tylos pareiga, asmeninis dokumentų tvarkymas, atsakomybė savo vardu. Atskaitomybė globos teismui." },
+        { "title": "Buvimas, ne iškvietimas", "body": "Pokalbiai slaugoje, susitikimai institucijose ir vizitai klinikose remiasi buvimu ir nuovoka. Abu reikalauja dalyvavimo." }
+      ]
+    },
+    "faq": {
+      "title": "Dažni klausimai — apie globą.",
+      "items": [
+        { "q": "Kas yra teisinė globa Vokietijoje?", "a": "Teisinę globą skiria globos teismas pilnamečiams asmenims, negalintiems patys tvarkyti savo reikalų (§§ 1814 ir t. BGB)." },
+        { "q": "Kas yra profesionali globėja pagal BtOG?", "a": "Teisiniai globėjai, dirbantys profesionaliai ir turintys įrodytą kvalifikaciją, registruoti pagal Globėjų organizavimo įstatymą (BtOG). Reikalavimai: asmeninis tinkamumas, kvalifikacijos pažymėjimas, profesinis draudimas." },
+        { "q": "Kuriose srityse Daiva Jankus dirba?", "a": "Turto, sveikatos, gyvenamosios vietos klausimai bei reikalai institucijose ir būsto klausimais — priklausomai nuo teismo sprendimo." },
+        { "q": "Ar galiu pasiūlyti Daivą Jankus globėja?", "a": "Taip. Globotinis ar artimieji gali pasiūlyti konkretų asmenį (§ 1816 BGB). Teismas paprastai privalo šiuo pasiūlymu vadovautis." },
+        { "q": "Kas dengia globos išlaidas?", "a": "Lėšų neturintiems asmenims fiksuotą atlyginimą pagal VBVG dengia valstybės iždas. Turintiems lėšų asmenims — apmokama iš globotinio turto." },
+        { "q": "Kaip globa baigiasi ar keičiama?", "a": "Globa baigiasi, kai nebėra reikalinga. Teismas reguliariai peržiūri (vėliausiai po septynerių metų) ir gali išplėsti ar apriboti pareigas." },
+        { "q": "Kokios pareigos tenka profesionaliai globėjai?", "a": "Asmeninis pareigų vykdymas, atskaitomybė teismui, metinė finansinė ataskaita, globotinio savarankiškumo teisės gerbimas." },
+        { "q": "Kuo globa skiriasi nuo įgaliojimo?", "a": "Įgaliojimą iš anksto duodate patys, jei netektumėte veiksnumo. Globą skiria teismas, kai nėra galiojančio įgaliojimo arba jo nepakanka." }
+      ]
+    },
+    "crosslink": {
+      "eyebrow": "Taip pat aktualu",
+      "body": "Jei jūsų reikalas susijęs su kalbiniu tarpininkavimu teisme ar institucijose — prieš globą ar greta jos — į pagalbą ateina I mandatas.",
+      "cta": "Į vertimą žodžiu ir raštu"
+    },
+    "closing": {
+      "title": "Užklausa dėl globos bylos."
+    }
+  },
+  "ueber": {
+    "metaTitle": "Apie Daivą Jankus | Karjera ir kvalifikacijos",
+    "metaDescription": "Daiva Jankus — prisaikdintoji vertėja lietuvių–vokiečių ir registruotoji profesionali globėja. Trys dešimtmečiai tarp dviejų kalbų ir dviejų atsakomybių.",
+    "breadcrumb": "Apie mane",
+    "hero": {
+      "eyebrow": "Karjera",
+      "title": "Trys dešimtmečiai tarp dviejų kalbų — ir dviejų atsakomybių.",
+      "lead": "Gimusi Lietuvoje, mokslus baigusi Vilniuje, Vokietijoje dirbu nuo 1995 m. Bendrai prisaikdintoji žodžio ir įgaliotoji raštu vertėja lietuvių–vokiečių (OLG Düsseldorf), nuo 2023 m. — registruotoji profesionali globėja pagal BtOG. Biuras Menchengladbache, veikla NRW ir visoje Vokietijoje."
+    },
+    "bio": {
+      "title": "Karjeros kelias.",
+      "photoAlt": "Daivos Jankus portretas — karjera",
+      "p1": "Augau tarp dviejų kalbų, kurios šiandien yra mano darbo pagrindas. Germanistikos ir vertimo studijos Vilniuje, vėliau studijos Vokietijoje. 1995 m. įsikūrimas Šiaurės Reine-Vestfalijoje.",
+      "p2": "Bendra priesaika kaip vertėjos ir įgaliojimas raštu lietuvių kalbai Diuseldorfo aukštesniojo žemės teismo. Daugiau nei tris dešimtmečius dirbu teismuose, pas notarus, verslo derybose ir asmeniniame atstovavime.",
+      "p3": "2023 m. registracija profesionalia globėja pagal Globėjų organizavimo įstatymą (BtOG) su kvalifikacijos pažymėjimu. Veiklos išplėtimas asmenišku pilnamečių asmenų atstovavimu — atsakomybė, kalba, etika ir teise susijusi su ankstesne praktika.",
+      "p4": "Abi veiklos ypač susijungia ten, kur kalba apie lietuviakalbius žmones Vokietijoje — vyresniąją kartą slaugos namuose, šeimas su artimaisiais Lietuvoje, teisminius procesus, kuriuose kalba ir savarankiškumas neatskiriami."
+    },
+    "timeline": {
+      "eyebrow": "Etapai",
+      "title": "Karjeros etapai.",
+      "items": [
+        { "year": "1995", "title": "Įsikūrimas Vokietijoje", "body": "Laisvai samdomos vertėjos žodžiu ir raštu veiklos pradžia Šiaurės Reine-Vestfalijoje." },
+        { "year": "1998", "title": "Bendra priesaika", "body": "Prisaikdinta žodžiu ir įgaliota raštu lietuvių kalbai Diuseldorfo aukštesniojo žemės teismo." },
+        { "year": "2000–2023", "title": "Trys dešimtmečiai praktikos", "body": "Daugiau kaip tūkstantis dalyvavimų teismuose, pas notarus, institucijose ir verslo derybose. Lydintis oficialių ir privačių dokumentų vertimas." },
+        { "year": "2023", "title": "Registracija profesionalia globėja", "body": "Kvalifikacijos pažymėjimas ir registracija pagal BtOG. Veiklos išplėtimas teisinės globos sritimi." },
+        { "year": "šiandien", "title": "Du mandatai, viena vieta", "body": "Praktika Menchengladbache. Veikla NRW ir visoje Vokietijoje, abu mandatuose — vokiečių ir lietuvių kalbomis." }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Kvalifikacijos",
+      "title": "Įgaliojimai, narystės, kalbos.",
+      "groups": [
+        {
+          "title": "Priesaika ir įgaliojimas",
+          "items": ["Bendrai prisaikdintoji vertėja (OLG Düsseldorf)", "Įgaliotoji vertėja lietuvių–vokiečių", "Veikia visoje Vokietijoje"]
+        },
+        {
+          "title": "Profesionali globa",
+          "items": ["Registruotoji profesionali globėja pagal BtOG", "Kvalifikacijos pažymėjimas, 2023", "Profesinė atsakomybės draudimas"]
+        },
+        {
+          "title": "Išsilavinimas",
+          "items": ["Germanistikos / vertimo studijos, Vilnius", "Aukštesniosios studijos Vokietijoje", "Nuolatinis teisinis tobulinimasis"]
+        },
+        {
+          "title": "Kalbos",
+          "items": ["Lietuvių — gimtoji", "Vokiečių — derybinis lygis (C2)", "Anglų — pokalbis, raštas"]
+        }
+      ]
     }
   }
 }

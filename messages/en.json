@@ -230,18 +230,286 @@
       "title": "This page will follow shortly.",
       "body": "For specific enquiries please get in touch by phone or email at any time.",
       "back": "Back to home"
+    }
+  },
+  "dolmetschen": {
+    "metaTitle": "Lithuanian–German Interpreter | Sworn OLG Düsseldorf | Daiva Jankus",
+    "metaDescription": "Sworn court interpreter and authorised translator Lithuanian–German in NRW. Authorised by the OLG Düsseldorf. Court interpreting, certified translations, business engagements.",
+    "breadcrumb": "Interpreting",
+    "hero": {
+      "eyebrow": "Mandate I · OLG Düsseldorf",
+      "title": "Interpreting & translation Lithuanian–German.",
+      "lead": "Generally sworn interpreter and authorised translator for the Lithuanian language, admitted by the Düsseldorf Higher Regional Court. Active for over thirty years across courts, business and the personal sphere — in North Rhine-Westphalia and across Germany.",
+      "ctaPrimary": "Request an appointment"
     },
-    "interpreting": {
-      "title": "Interpreting & Translation",
-      "lead": "Detail page on the first mandate — sworn interpreting and certified translations Lithuanian–German."
+    "services": {
+      "eyebrow": "Fields of practice",
+      "title": "Three fields, one standard.",
+      "lede": "Each engagement asks for a different kind of precision. What remains constant is the legal weight of every word, spoken or written.",
+      "items": [
+        {
+          "title": "Courts & Authorities",
+          "desc": "Court interpreting, notarial appointments and proceedings before public authorities. Certified translations of case files and official documents — recognised across Germany.",
+          "bullets": [
+            "Court hearings, examinations, witness statements",
+            "Notary appointments, attestations, powers of attorney",
+            "Police, registry office, immigration",
+            "Certified translations for case files",
+            "Remand-judge appointments, urgent matters"
+          ]
+        },
+        {
+          "title": "Business",
+          "desc": "Negotiation-grade interpreting for contract closings, plant visits and sensitive compliance matters in German–Lithuanian commerce.",
+          "bullets": [
+            "Contract negotiations, closings",
+            "Plant visits and audits",
+            "Compliance & internal investigations",
+            "M&A advisory support",
+            "Board and advisory meetings"
+          ]
+        },
+        {
+          "title": "Private clients",
+          "desc": "Personal occasions in which language has legal consequences — from civil weddings to estate matters, from diplomas to medical accompaniment.",
+          "bullets": [
+            "Marriage, registry office",
+            "Inheritance and family law",
+            "Certificates, transcripts, diplomas",
+            "Personal correspondence",
+            "Medical accompaniment"
+          ]
+        }
+      ]
     },
-    "guardianship": {
-      "title": "Legal Guardianship",
-      "lead": "Detail page on the second mandate — registered professional guardian under the BtOG."
+    "uebersetzungen": {
+      "eyebrow": "Authorised translator",
+      "title": "Certified translations — legally binding, personally handled.",
+      "p1": "A certified translation bears the stamp, signature and certification statement of the authorised translator. It is valid in Germany before courts, public authorities, notaries and registry offices — and recognised abroad with an apostille.",
+      "p2": "Common documents: birth, marriage and death certificates; diplomas and academic transcripts; powers of attorney; contracts; judgments and court filings; commercial register extracts; notarial deeds; estate documents.",
+      "h2": "Processing",
+      "list": [
+        "Standard turnaround 3–5 working days",
+        "Expedited processing on request",
+        "Personal handling — no cloud processing",
+        "Confidentiality, GDPR-compliant"
+      ]
     },
-    "about": {
-      "title": "About Daiva Jankus",
-      "lead": "Career, qualifications, memberships."
+    "locations": {
+      "eyebrow": "Service area",
+      "title": "Available across NRW and Germany.",
+      "p1": "The practice is centred in North Rhine-Westphalia with short travel to the courts in Düsseldorf, Cologne, Mönchengladbach and Krefeld. On request I travel anywhere in Germany for longer engagements, business negotiations and plant visits.",
+      "cities": ["Düsseldorf", "Cologne", "Mönchengladbach", "Krefeld", "Essen", "Duisburg", "Aachen", "Wuppertal", "Dortmund"],
+      "note": "Anywhere in Germany by arrangement"
+    },
+    "differentiation": {
+      "eyebrow": "Why a person",
+      "title": "Why a person — and not a system.",
+      "items": [
+        {
+          "title": "Legal admissibility",
+          "body": "Certified translations and court interpreting in Germany are tied to a personal oath (§ 189 GVG). What is spoken or written here will hold up before a judge."
+        },
+        {
+          "title": "Confidentiality",
+          "body": "Professional duty of confidentiality, personal handling of sensitive material, no cloud services, no third-party disclosure."
+        },
+        {
+          "title": "On-site presence",
+          "body": "Negotiations live on tone, pause and eye contact. Travel anywhere in Germany, including at short notice."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked.",
+      "items": [
+        { "q": "Who is allowed to interpret Lithuanian in German courts?", "a": "In German courts, only generally sworn interpreters may act in this capacity (§ 189 GVG). Daiva Jankus is generally sworn for the Lithuanian language by the Düsseldorf Higher Regional Court." },
+        { "q": "What does a sworn Lithuanian interpreter cost?", "a": "For court engagements the Judicial Remuneration Act (JVEG) applies. Private and business assignments are quoted on the basis of scope." },
+        { "q": "What is the difference between interpreting and translating?", "a": "Interpreting is the spoken transfer in real time; translation is its written counterpart. Each requires its own oath — Daiva Jankus is admitted for both." },
+        { "q": "Are certified translations recognised?", "a": "Yes — by authorities, courts and notaries throughout Germany. For use abroad, an apostille may be required." },
+        { "q": "Which documents are most often translated?", "a": "Birth, marriage and death certificates; diplomas and academic transcripts; powers of attorney; contracts; judgments and court filings; commercial register extracts." },
+        { "q": "How quickly can a short-notice booking be arranged?", "a": "Regular appointments with one to two weeks' lead time. Urgent matters (police, remand judge) at short notice." },
+        { "q": "Is confidentiality guaranteed?", "a": "Yes. Professional duty of confidentiality, personal handling, no cloud services, GDPR-compliant disposal after completion." },
+        { "q": "Which fee schedule applies in court (JVEG)?", "a": "For court engagements, fees and travel costs are settled under the Judicial Remuneration and Compensation Act (JVEG). A concrete statement is provided after the appointment." }
+      ]
+    },
+    "crosslink": {
+      "eyebrow": "Also relevant",
+      "body": "If your matter goes beyond interpreting — for example because a Lithuanian-speaking person can no longer make their own decisions — Mandate II comes into play.",
+      "cta": "Go to legal guardianship"
+    },
+    "closing": {
+      "title": "Request an appointment or a certified translation."
+    }
+  },
+  "betreuung": {
+    "metaTitle": "Professional Legal Guardian Mönchengladbach | Lithuanian–German | Daiva Jankus",
+    "metaDescription": "Registered professional legal guardian under the BtOG in Mönchengladbach. Financial care, healthcare and residence matters. Lithuanian and German as working languages.",
+    "breadcrumb": "Legal Guardianship",
+    "hero": {
+      "eyebrow": "Mandate II · BtOG-registered",
+      "title": "Legal guardianship — personal, in language, binding.",
+      "lead": "Registered professional legal guardian under the Guardianship Organisation Act (BtOG), with documented qualification and a practice based in Mönchengladbach. Lithuanian and German as working languages — a rare combination that benefits family courts, social services and families.",
+      "ctaPrimary": "Guardianship enquiry"
+    },
+    "scope": {
+      "eyebrow": "Scope of duties",
+      "title": "Three areas of responsibility.",
+      "lede": "The scope of duties is set by the guardianship court on a case-by-case basis. Common combinations are financial care, healthcare and residence — individually or together.",
+      "items": [
+        {
+          "title": "Financial care",
+          "desc": "Administration of income, accounts and ongoing obligations. Tax matters, contractual affairs, asset protection in the interest of the person under care.",
+          "bullets": [
+            "Account and income management",
+            "Pensions and social benefits",
+            "Invoicing and contracts",
+            "Tax and asset matters",
+            "Reporting duties to the court"
+          ]
+        },
+        {
+          "title": "Healthcare",
+          "desc": "Representation in medical decisions, communication with physicians and care facilities, exercise of patient rights and informed-consent conversations.",
+          "bullets": [
+            "Consent and information",
+            "Liaison with hospital and care home",
+            "Advance directives & planning",
+            "Attending treatment appointments",
+            "Support in decision-making"
+          ]
+        },
+        {
+          "title": "Residence & social",
+          "desc": "Support in housing and care matters, residential contracts, applications for social benefits, contact with providers and authorities.",
+          "bullets": [
+            "Housing and care home matters",
+            "Residential contracts, residence determination",
+            "Social welfare and care insurance",
+            "Applications and decisions",
+            "Liaison with providers and authorities"
+          ]
+        }
+      ]
+    },
+    "what": {
+      "eyebrow": "Foundations",
+      "title": "What legal guardianship means — and what it does not.",
+      "h1": "Legal basis",
+      "p1": "Legal guardianship is ordered by the guardianship court for an adult who, due to a health-related or cognitive limitation, can no longer manage their affairs in whole or in part.",
+      "p2": "Guardianship is limited to what is necessary and oriented toward the welfare and will of the person under care (§§ 1814 et seq. BGB). Scope and duration are set by the court in each case and reviewed regularly.",
+      "h2": "What it is not",
+      "list": [
+        "Guardianship is not legal incapacitation — that was abolished in 1992.",
+        "It does not replace the will of the person under care — it supports it.",
+        "It is not blanket — the scope is precisely tailored.",
+        "It is not permanent — it ends when it is no longer necessary."
+      ]
+    },
+    "vorschlag": {
+      "eyebrow": "Choice of guardian",
+      "title": "Proposing Daiva Jankus as guardian.",
+      "h1": "Legal basis",
+      "p1": "When a guardianship is ordered, those affected and close relatives have a right of proposal (§ 1816 BGB). The court is required to follow this proposal as a rule, unless suitability or conflict-of-interest concerns argue against it.",
+      "p2": "Linguistic and cultural proximity to the affected person counts in the suitability assessment — an aspect in which Lithuanian-speaking families in Germany are systematically underserved.",
+      "h2": "Practical sequence",
+      "steps": [
+        "First contact — a brief description of the situation by phone or form.",
+        "In-person meeting — suitability check and clarification of the expected scope.",
+        "Proposal to the court — written proposal with proof of qualification and willingness to serve.",
+        "Appointment — the guardianship court reviews and appoints."
+      ]
+    },
+    "litauisch": {
+      "eyebrow": "Language-aware guardianship",
+      "title": "Guardianship in the native language of the person under care.",
+      "body": "The language of childhood returns with age, often also with cognitive limitations. A Lithuanian-speaking person who has lived and worked in German for decades may suddenly only want — or be able — to understand Lithuanian in the care home. When treatment decisions, residential contracts or financial matters arise, the language used decides the dignity of the proceeding.",
+      "cases": [
+        { "title": "Trust instead of translation", "body": "When the guardian themselves speaks Lithuanian, the filter of a third party falls away. Personal conversations remain personal." },
+        { "title": "Connection to family in Lithuania", "body": "Relatives living in their home country can be involved in their own language — in decisions that touch the whole of a life." },
+        { "title": "Suitability the court recognises", "body": "Linguistic and cultural proximity are recognised as suitability criteria under § 1816 BGB — a qualification that must be formally documented." }
+      ]
+    },
+    "differentiation": {
+      "eyebrow": "Why a person",
+      "title": "Why a person — and not a system.",
+      "items": [
+        { "title": "Personal registration", "body": "Since 2023 professional guardians must be personally registered under the BtOG — with documented qualification, suitability and professional indemnity insurance." },
+        { "title": "Trusteeship over decisions about a life", "body": "Duty of confidentiality, personal record-keeping, liability under one's own name. Reporting duties to the guardianship court." },
+        { "title": "Attendance, not retrieval", "body": "Care conversations, authority appointments and clinical visits live on presence and judgement. Both call for being there." }
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked — about guardianship.",
+      "items": [
+        { "q": "What is legal guardianship in Germany?", "a": "Legal guardianship is ordered by the guardianship court for adults who can no longer manage their affairs in whole or in part (§§ 1814 et seq. BGB)." },
+        { "q": "What is a professional guardian under the BtOG?", "a": "Legal guardians acting in a professional capacity with documented qualification, registered with the competent authority under the Guardianship Organisation Act (BtOG). Requirements: personal suitability, qualification certificate, professional indemnity insurance." },
+        { "q": "In which areas does Daiva Jankus act?", "a": "Financial care, healthcare and residence matters, as well as dealings with authorities and housing — depending on the court order." },
+        { "q": "Can I propose Daiva Jankus as guardian?", "a": "Yes. Those affected or their relatives can propose a particular person (§ 1816 BGB). The court is required to follow this proposal as a rule." },
+        { "q": "Who bears the cost of guardianship?", "a": "For persons of limited means, the state treasury pays the flat-rate compensation under the VBVG. For those with means, it is paid from the assets of the person under care." },
+        { "q": "How is a guardianship ended or amended?", "a": "Guardianship ends as soon as it is no longer necessary. The court reviews regularly (at the latest after seven years) and can extend or restrict the scope." },
+        { "q": "What duties does a professional guardian have?", "a": "Personal exercise of the scope of duties, reporting to the court, annual financial accounting, respect for the right to self-determination of the person under care." },
+        { "q": "How does guardianship differ from a power of attorney?", "a": "A precautionary power of attorney is one you grant yourself in advance for the case of legal incapacity. A guardianship is ordered by the court when no effective power of attorney exists or it is not sufficient." }
+      ]
+    },
+    "crosslink": {
+      "eyebrow": "Also relevant",
+      "body": "If your matter concerns language mediation in courts or with authorities — before or alongside a guardianship — Mandate I comes into play.",
+      "cta": "Go to interpreting & translation"
+    },
+    "closing": {
+      "title": "Enquire about a guardianship matter."
+    }
+  },
+  "ueber": {
+    "metaTitle": "About Daiva Jankus | Career & Qualifications",
+    "metaDescription": "Daiva Jankus — sworn Lithuanian–German interpreter and registered professional legal guardian. Three decades between two languages and two responsibilities.",
+    "breadcrumb": "About",
+    "hero": {
+      "eyebrow": "Career",
+      "title": "Three decades between two languages — and two responsibilities.",
+      "lead": "Born in Lithuania, trained in Vilnius, working in Germany since 1995. Generally sworn interpreter and authorised translator for Lithuanian–German (OLG Düsseldorf), and since 2023 a registered professional legal guardian under the BtOG. Practice based in Mönchengladbach, active in NRW and across Germany."
+    },
+    "bio": {
+      "title": "Career path.",
+      "photoAlt": "Portrait of Daiva Jankus — career",
+      "p1": "Raised between the two languages that today form the foundation of my work. Studies in Germanic studies and translation studies in Vilnius, followed by postgraduate study in Germany. Settled in North Rhine-Westphalia in 1995.",
+      "p2": "General oath as interpreter and authorisation as translator by the Düsseldorf Higher Regional Court. Over three decades of engagements before courts, notaries, in business negotiations and in personal representation.",
+      "p3": "In 2023, registered as a professional guardian under the Guardianship Organisation Act (BtOG) with documented qualification. This extended the practice to include personal representation of adults — a responsibility connected to the previous practice in language, ethics and law.",
+      "p4": "Both practices come together especially where Lithuanian-speaking people in Germany are concerned — older generations in care facilities, families with relatives in Lithuania, court proceedings in which language and self-determination are inseparable."
+    },
+    "timeline": {
+      "eyebrow": "Stations",
+      "title": "Career stations.",
+      "items": [
+        { "year": "1995", "title": "Settled in Germany", "body": "Beginning of freelance practice as interpreter and translator in North Rhine-Westphalia." },
+        { "year": "1998", "title": "General oath", "body": "Sworn as interpreter and authorised as translator for the Lithuanian language by the Düsseldorf Higher Regional Court." },
+        { "year": "2000–2023", "title": "Three decades of practice", "body": "Over a thousand engagements before courts, notaries, authorities and in business negotiations. Accompanying translation of official and private documents." },
+        { "year": "2023", "title": "Registered as professional guardian", "body": "Documented qualification and registration under the BtOG with the competent authority. Extension of practice to legal guardianship." },
+        { "year": "today", "title": "Two mandates, one location", "body": "Practice in Mönchengladbach. Active across NRW and Germany, in both mandates — in German and Lithuanian." }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Qualifications",
+      "title": "Authorisations, memberships, languages.",
+      "groups": [
+        {
+          "title": "Oath & authorisation",
+          "items": ["Generally sworn interpreter (OLG Düsseldorf)", "Authorised translator for Lithuanian–German", "Available across Germany"]
+        },
+        {
+          "title": "Professional guardianship",
+          "items": ["Registered professional guardian under the BtOG", "Qualification certificate 2023", "Professional indemnity insurance"]
+        },
+        {
+          "title": "Education",
+          "items": ["Studies in Germanic studies / translation, Vilnius", "Postgraduate study in Germany", "Continuous legal training"]
+        },
+        {
+          "title": "Languages",
+          "items": ["Lithuanian — native", "German — full professional proficiency (C2)", "English — conversation, written correspondence"]
+        }
+      ]
     }
   }
 }

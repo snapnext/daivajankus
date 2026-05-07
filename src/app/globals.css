@@ -149,7 +149,21 @@ p { margin: 0; text-wrap: pretty; }
   align-items: center;
   gap: 32px;
 }
-.wordmark { display: flex; flex-direction: column; line-height: 1; }
+.wordmark {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  line-height: 1;
+}
+.wordmark-text {
+  display: flex;
+  flex-direction: column;
+}
+.wordmark svg {
+  flex-shrink: 0;
+  display: block;
+}
 .wordmark-name {
   font-weight: 600;
   font-size: 19px;
@@ -833,6 +847,287 @@ footer.site-footer {
 }
 @media (max-width: 880px) { .footer-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr; } }
+
+/* ============ Subpage components ===================================== */
+
+/* Services 3-up (used on /dolmetschen + /rechtliche-betreuung) */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px solid var(--rule);
+}
+.service {
+  padding: 48px 40px 48px 0;
+  border-right: 1px solid var(--rule);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.service:nth-child(1) { padding-right: 40px; }
+.service:nth-child(2) { padding-left: 40px; padding-right: 40px; }
+.service:last-child { border-right: 0; padding-left: 40px; padding-right: 0; }
+.service-icon {
+  width: 32px; height: 32px;
+  color: var(--amber);
+  margin-bottom: 8px;
+}
+.service-icon.forest { color: var(--forest); }
+.service h3 { font-size: 22px; }
+.service p { color: var(--muted); }
+.service ul {
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.service li {
+  position: relative;
+  padding-left: 22px;
+  font-size: 15px;
+  color: var(--ink);
+}
+.service li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 11px;
+  width: 6px; height: 6px;
+  background: var(--amber);
+  border-radius: 50%;
+}
+.service.forest li::before { background: var(--forest); }
+@media (max-width: 880px) {
+  .services-grid { grid-template-columns: 1fr; }
+  .service { border-right: 0; border-bottom: 1px solid var(--rule); padding: 36px 0; }
+  .service:last-child { border-bottom: 0; }
+}
+
+/* Two-column explainer (used on /dolmetschen + /rechtliche-betreuung) */
+.twocol {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  gap: clamp(32px, 5vw, 80px);
+  align-items: start;
+}
+.twocol.flip { grid-template-columns: 5fr 7fr; }
+.twocol .col h3 { margin-bottom: 16px; }
+.twocol .col p + p { margin-top: 14px; }
+.twocol .col p { color: var(--ink); line-height: 1.7; }
+.twocol .col .muted { color: var(--muted); }
+.twocol ul.checklist,
+.twocol ol.checklist {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  counter-reset: step;
+}
+.twocol ul.checklist li,
+.twocol ol.checklist li {
+  position: relative;
+  padding-left: 26px;
+  color: var(--ink);
+  line-height: 1.55;
+}
+.twocol ul.checklist li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 9px;
+  width: 12px; height: 1px;
+  background: var(--amber);
+}
+.twocol ol.checklist {
+  counter-reset: step;
+}
+.twocol ol.checklist li {
+  counter-increment: step;
+  padding-left: 36px;
+}
+.twocol ol.checklist li::before {
+  content: counter(step, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--amber-dark);
+  background: transparent;
+  width: auto;
+  height: auto;
+}
+.twocol ul.crosslist li::before {
+  background: transparent;
+  border-top: 1px solid var(--muted);
+  width: 10px;
+  top: 11px;
+  left: 2px;
+  transform: rotate(45deg);
+}
+.twocol ul.crosslist li::after {
+  content: "";
+  position: absolute;
+  left: 2px; top: 11px;
+  width: 10px; height: 1px;
+  background: var(--muted);
+  transform: rotate(-45deg);
+}
+@media (max-width: 880px) {
+  .twocol, .twocol.flip { grid-template-columns: 1fr; }
+}
+
+/* Locations grid (used on /dolmetschen) */
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px 32px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.locations-grid li {
+  font-size: 16px;
+  color: var(--ink);
+  padding: 8px 0;
+  border-top: 1px solid var(--rule);
+}
+.locations-grid li.note {
+  color: var(--muted);
+  font-style: italic;
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--rule);
+}
+@media (max-width: 700px) {
+  .locations-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* Crosslink (used on /dolmetschen + /rechtliche-betreuung) */
+.crosslink {
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  padding: clamp(48px, 6vw, 72px) 0;
+}
+.crosslink .container {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: clamp(20px, 4vw, 48px);
+  align-items: center;
+}
+.crosslink .eyebrow { white-space: nowrap; }
+.crosslink p { font-size: 18px; max-width: 60ch; line-height: 1.55; }
+@media (max-width: 880px) {
+  .crosslink .container { grid-template-columns: 1fr; }
+}
+
+/* About bio grid (/ueber) */
+.about-bio-grid {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  gap: clamp(32px, 6vw, 88px);
+  align-items: start;
+}
+.about-bio-grid .photo { width: 100%; }
+.about-bio-grid .bio-text { display: flex; flex-direction: column; gap: 18px; }
+.about-bio-grid .bio-text p { font-size: 17px; line-height: 1.75; color: var(--ink); max-width: 60ch; }
+.about-bio-grid .bio-text h2 { margin-bottom: 6px; }
+@media (max-width: 880px) { .about-bio-grid { grid-template-columns: 1fr; } }
+
+/* Timeline (/ueber) */
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-left: 1px solid var(--rule);
+  padding-left: clamp(28px, 4vw, 48px);
+}
+.timeline li {
+  display: block;
+  padding: 24px 0;
+  position: relative;
+  border-top: 1px solid var(--rule);
+}
+.timeline li:first-child { border-top: 0; padding-top: 8px; }
+.timeline li::after {
+  content: "";
+  position: absolute;
+  left: calc(-1 * clamp(28px, 4vw, 48px) - 4.5px);
+  top: 32px;
+  width: 9px; height: 9px;
+  background: var(--amber);
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px var(--paper);
+}
+.timeline li[data-track="forest"]::after,
+.timeline li:nth-child(4)::after,
+.timeline li:nth-child(5)::after { background: var(--forest); }
+.timeline li .year {
+  display: block;
+  font-size: 12px; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--muted);
+  margin-bottom: 8px;
+}
+.timeline li h4 { font-size: 19px; font-weight: 500; color: var(--ink); margin-bottom: 6px; line-height: 1.35; }
+.timeline li p { color: var(--muted); font-size: 15px; line-height: 1.65; max-width: 56ch; }
+
+/* Background swap on the timeline section (forest dot looks better on F4EFE5) */
+section[data-bg="cream"] { background: #F4EFE5; }
+.timeline.on-cream li::after,
+section[data-bg="cream"] .timeline li::after {
+  box-shadow: 0 0 0 4px #F4EFE5;
+}
+
+/* Credentials grid (/ueber) */
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  border-top: 1px solid var(--rule);
+}
+.credentials-grid .cred {
+  padding: clamp(28px, 3.5vw, 40px) clamp(20px, 3vw, 32px) clamp(28px, 3.5vw, 40px) 0;
+  border-bottom: 1px solid var(--rule);
+  border-right: 1px solid var(--rule);
+}
+.credentials-grid .cred:nth-child(2n) { padding-right: 0; padding-left: clamp(20px, 3vw, 32px); border-right: 0; }
+.credentials-grid .cred:nth-last-child(-n+2) { border-bottom: 0; }
+.credentials-grid .cred h4 {
+  font-size: 12px; font-weight: 600; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 16px;
+}
+.credentials-grid .cred ul { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px; }
+.credentials-grid .cred li {
+  font-size: 16px; color: var(--ink); padding-left: 18px; position: relative;
+}
+.credentials-grid .cred li::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 11px;
+  width: 8px; height: 1px;
+  background: var(--amber);
+}
+@media (max-width: 700px) {
+  .credentials-grid { grid-template-columns: 1fr; }
+  .credentials-grid .cred,
+  .credentials-grid .cred:nth-child(2n) { padding: 24px 0; border-right: 0; border-bottom: 1px solid var(--rule); }
+  .credentials-grid .cred:last-child { border-bottom: 0; }
+}
+
+/* iPad portrait — fold subpage layouts to single column */
+@media (min-width: 881px) and (max-width: 1023px) {
+  .services-grid { grid-template-columns: 1fr; }
+  .service { border-right: 0; border-bottom: 1px solid var(--rule); padding: 32px 0; }
+  .service:last-child { border-bottom: 0; }
+  .twocol, .twocol.flip { grid-template-columns: 1fr; }
+  .about-bio-grid { grid-template-columns: 1fr; gap: 32px; }
+  .credentials-grid { grid-template-columns: 1fr; }
+  .credentials-grid .cred,
+  .credentials-grid .cred:nth-child(2n) { padding: 24px 0; border-right: 0; }
+  .crosslink .container { grid-template-columns: 1fr; gap: 16px; }
+}
 
 /* ============ Mobile-first responsive overrides ===================== */
 

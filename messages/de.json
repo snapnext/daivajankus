@@ -230,18 +230,286 @@
       "title": "Diese Seite folgt in Kürze.",
       "body": "Wenden Sie sich für konkrete Anfragen jederzeit telefonisch oder per E-Mail.",
       "back": "Zurück zur Startseite"
+    }
+  },
+  "dolmetschen": {
+    "metaTitle": "Dolmetscherin Litauisch–Deutsch | Vereidigt OLG Düsseldorf | Daiva Jankus",
+    "metaDescription": "Vereidigte Dolmetscherin und ermächtigte Übersetzerin für Litauisch–Deutsch in NRW. Zugelassen durch das OLG Düsseldorf. Gerichtsdolmetschen, beglaubigte Übersetzungen, Wirtschaftstermine.",
+    "breadcrumb": "Dolmetschen",
+    "hero": {
+      "eyebrow": "Mandat I · OLG Düsseldorf",
+      "title": "Dolmetschen & Übersetzen Litauisch–Deutsch.",
+      "lead": "Allgemein beeidigte Dolmetscherin und ermächtigte Übersetzerin für die litauische Sprache, zugelassen durch das Oberlandesgericht Düsseldorf. Seit über dreißig Jahren tätig in Justiz, Wirtschaft und im persönlichen Bereich — in Nordrhein-Westfalen und bundesweit.",
+      "ctaPrimary": "Termin anfragen"
     },
-    "interpreting": {
-      "title": "Dolmetschen & Übersetzen",
-      "lead": "Detailseite zum ersten Mandat — vereidigtes Dolmetschen und beglaubigte Übersetzungen Litauisch–Deutsch."
+    "services": {
+      "eyebrow": "Tätigkeitsbereiche",
+      "title": "Drei Bereiche, eine Verlässlichkeit.",
+      "lede": "Jeder Termin verlangt eine andere Form von Genauigkeit. Was bleibt, ist die rechtliche Verbindlichkeit jedes gesprochenen und geschriebenen Wortes.",
+      "items": [
+        {
+          "title": "Justiz & Behörden",
+          "desc": "Dolmetschen vor Gericht, bei Notarterminen und im Behördenverkehr. Beglaubigte Übersetzungen für Verfahrensakten und amtliche Dokumente — anerkannt im gesamten Bundesgebiet.",
+          "bullets": [
+            "Gerichtsverhandlungen, Anhörungen, Zeugenaussagen",
+            "Notartermine, Beurkundungen, Vollmachten",
+            "Polizei, Standesamt, Ausländerbehörde",
+            "Beglaubigte Übersetzungen für Akten",
+            "Haftrichtertermine, Eilfälle"
+          ]
+        },
+        {
+          "title": "Wirtschaft",
+          "desc": "Verhandlungssicheres Dolmetschen für Vertragsabschlüsse, Werksbesuche und sensible Compliance-Termine im deutsch-litauischen Geschäftsverkehr.",
+          "bullets": [
+            "Vertragsverhandlungen, Closings",
+            "Werks- und Audit-Besuche",
+            "Compliance & interne Untersuchungen",
+            "M&A-Begleitung",
+            "Vorstands- und Beiratsmeetings"
+          ]
+        },
+        {
+          "title": "Privat",
+          "desc": "Persönliche Anlässe, in denen Sprache rechtliche Folgen hat — vom Standesamt bis zur Erbschaftsangelegenheit, vom Diplom bis zur medizinischen Begleitung.",
+          "bullets": [
+            "Eheschließung, Standesamt",
+            "Erbschafts- und Familienrecht",
+            "Urkunden, Zeugnisse, Diplome",
+            "Persönliche Korrespondenz",
+            "Medizinische Begleitung"
+          ]
+        }
+      ]
     },
-    "guardianship": {
-      "title": "Rechtliche Betreuung",
-      "lead": "Detailseite zum zweiten Mandat — registrierte Berufsbetreuerin nach BtOG."
+    "uebersetzungen": {
+      "eyebrow": "Ermächtigte Übersetzerin",
+      "title": "Beglaubigte Übersetzungen — rechtsgültig, persönlich bearbeitet.",
+      "p1": "Eine beglaubigte Übersetzung trägt Stempel, Unterschrift und Bescheinigungsformel der ermächtigten Übersetzerin. Sie ist in Deutschland vor Gerichten, Behörden, Notaren und Standesämtern gültig — und wird mit Apostille auch im Ausland anerkannt.",
+      "p2": "Häufige Dokumente: Geburts-, Heirats- und Sterbeurkunden, Diplome und Zeugnisse, Vollmachten, Verträge, Urteile und gerichtliche Schriftsätze, Handelsregisterauszüge, notarielle Urkunden, Erbschaftsdokumente.",
+      "h2": "Bearbeitung",
+      "list": [
+        "Standardlauf 3–5 Werktage",
+        "Eilbearbeitung auf Anfrage",
+        "Persönliche Bearbeitung — keine Cloud-Verarbeitung",
+        "Vertraulichkeit DSGVO-konform"
+      ]
     },
-    "about": {
-      "title": "Über Daiva Jankus",
-      "lead": "Werdegang, Qualifikationen, Mitgliedschaften."
+    "locations": {
+      "eyebrow": "Tätigkeitsgebiet",
+      "title": "Verfügbar in NRW und bundesweit.",
+      "p1": "Schwerpunkt der Tätigkeit ist Nordrhein-Westfalen mit kurzen Anreisewegen zu den Gerichten in Düsseldorf, Köln, Mönchengladbach und Krefeld. Auf Wunsch reise ich bundesweit zu längeren Terminen, Wirtschaftsverhandlungen und Werksbesuchen an.",
+      "cities": ["Düsseldorf", "Köln", "Mönchengladbach", "Krefeld", "Essen", "Duisburg", "Aachen", "Wuppertal", "Dortmund"],
+      "note": "Bundesweit nach Vereinbarung"
+    },
+    "differentiation": {
+      "eyebrow": "Warum ein Mensch",
+      "title": "Warum ein Mensch — und nicht ein System.",
+      "items": [
+        {
+          "title": "Rechtsverbindlichkeit",
+          "body": "Beglaubigte Übersetzungen und Gerichtsdolmetschen sind in Deutschland an persönliche Beeidigung gebunden (§ 189 GVG). Was hier gesprochen oder geschrieben wird, hat Bestand vor Gericht."
+        },
+        {
+          "title": "Verschwiegenheit",
+          "body": "Berufliche Schweigepflicht, persönliche Bearbeitung sensibler Unterlagen, keine Cloud-Dienste, keine Weitergabe."
+        },
+        {
+          "title": "Vor-Ort-Präsenz",
+          "body": "Verhandlungen leben von Tonfall, Pause und Blickkontakt. Bundesweite Reisebereitschaft, auch kurzfristig."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gefragt.",
+      "items": [
+        { "q": "Wer darf in Deutschland Litauisch vor Gericht dolmetschen?", "a": "Vor deutschen Gerichten dürfen ausschließlich allgemein beeidigte Dolmetscher tätig werden (§ 189 GVG). Daiva Jankus ist beim Oberlandesgericht Düsseldorf für Litauisch allgemein beeidigt." },
+        { "q": "Was kostet eine vereidigte Dolmetscherin Litauisch?", "a": "Bei gerichtlichen Aufträgen gilt das JVEG. Privat- und Geschäftstermine werden nach Aufwand kalkuliert." },
+        { "q": "Was ist der Unterschied zwischen Dolmetschen und Übersetzen?", "a": "Dolmetschen ist die mündliche Übertragung in Echtzeit, Übersetzen die schriftliche. Beide Tätigkeiten erfordern eigene Beeidigungen — Daiva Jankus ist für beide zugelassen." },
+        { "q": "Werden beglaubigte Übersetzungen anerkannt?", "a": "Ja — von Behörden, Gerichten und Notaren im gesamten Bundesgebiet. Für Auslandsverwendung ist gegebenenfalls eine Apostille erforderlich." },
+        { "q": "Welche Dokumente werden häufig übersetzt?", "a": "Geburts-, Heirats- und Sterbeurkunden, Diplome und Zeugnisse, Vollmachten, Verträge, Urteile und gerichtliche Schriftsätze, Handelsregisterauszüge." },
+        { "q": "Wie schnell ist eine kurzfristige Buchung möglich?", "a": "Reguläre Termine mit ein bis zwei Wochen Vorlauf. Eilfälle (Polizei, Haftrichter) auch kurzfristig." },
+        { "q": "Ist die Verschwiegenheit gesichert?", "a": "Ja. Berufliche Schweigepflicht, persönliche Bearbeitung, keine Cloud-Dienste, DSGVO-konforme Vernichtung nach Abschluss." },
+        { "q": "Welche Honorarordnung gilt vor Gericht (JVEG)?", "a": "Bei gerichtlichen Aufträgen werden Honorar und Reisekosten nach dem Justizvergütungs- und ‑entschädigungsgesetz (JVEG) abgerechnet. Eine konkrete Aufstellung erhalten Sie nach dem Termin." }
+      ]
+    },
+    "crosslink": {
+      "eyebrow": "Auch relevant",
+      "body": "Wenn Ihr Anliegen über das Dolmetschen hinausgeht — etwa weil eine litauischsprachige Person dauerhaft nicht mehr selbst entscheiden kann — kommt Mandat II ins Spiel.",
+      "cta": "Zur rechtlichen Betreuung"
+    },
+    "closing": {
+      "title": "Termin oder beglaubigte Übersetzung anfragen."
+    }
+  },
+  "betreuung": {
+    "metaTitle": "Berufsbetreuerin Mönchengladbach | Litauisch–Deutsch | Daiva Jankus",
+    "metaDescription": "Registrierte Berufsbetreuerin nach BtOG in Mönchengladbach. Vermögens-, Gesundheits- und Aufenthaltssorge. Litauisch und Deutsch als Arbeitssprachen. Tätig in NRW.",
+    "breadcrumb": "Rechtliche Betreuung",
+    "hero": {
+      "eyebrow": "Mandat II · BtOG-registriert",
+      "title": "Rechtliche Betreuung — persönlich, sprachlich, verbindlich.",
+      "lead": "Registrierte Berufsbetreuerin nach dem Betreuerorganisationsgesetz (BtOG), mit Sachkundenachweis und Sitz in Mönchengladbach. Litauisch und Deutsch als Arbeitssprachen — eine seltene Kombination, die Familiengerichten, Sozialdiensten und Familien zugutekommt.",
+      "ctaPrimary": "Anfrage zur Betreuung"
+    },
+    "scope": {
+      "eyebrow": "Aufgabenkreise",
+      "title": "Drei Verantwortungsbereiche.",
+      "lede": "Die Aufgabenkreise werden vom Betreuungsgericht im Einzelfall festgelegt. Häufige Konstellationen sind Vermögens-, Gesundheits- und Aufenthaltssorge — einzeln oder kombiniert.",
+      "items": [
+        {
+          "title": "Vermögenssorge",
+          "desc": "Verwaltung von Einkommen, Konten und laufenden Verpflichtungen. Steuerangelegenheiten, Vertragswesen, Vermögenssicherung im Sinne der betreuten Person.",
+          "bullets": [
+            "Konto- und Einkommensverwaltung",
+            "Renten- und Sozialleistungen",
+            "Rechnungsabwicklung & Verträge",
+            "Steuer- und Vermögensfragen",
+            "Berichtspflicht gegenüber dem Gericht"
+          ]
+        },
+        {
+          "title": "Gesundheitssorge",
+          "desc": "Vertretung bei medizinischen Entscheidungen, Kommunikation mit Ärzten und Pflegeeinrichtungen, Wahrnehmung von Patientenrechten und Aufklärungsgesprächen.",
+          "bullets": [
+            "Einwilligungen und Aufklärung",
+            "Kontakt zu Klinik und Pflege",
+            "Patientenverfügung & Vorsorge",
+            "Wahrnehmung von Behandlungsterminen",
+            "Begleitung bei Entscheidungen"
+          ]
+        },
+        {
+          "title": "Aufenthalt & Soziales",
+          "desc": "Begleitung in Wohn- und Pflegefragen, Heimverträge, Antragstellung von Sozialleistungen, Kontakt zu Trägern und Behörden.",
+          "bullets": [
+            "Wohnungs- und Heimangelegenheiten",
+            "Heimverträge, Aufenthaltsbestimmung",
+            "Sozialamt, Jobcenter, Pflegekasse",
+            "Anträge und Bescheide",
+            "Kontakt zu Trägern und Behörden"
+          ]
+        }
+      ]
+    },
+    "what": {
+      "eyebrow": "Grundlagen",
+      "title": "Was rechtliche Betreuung bedeutet — und was nicht.",
+      "h1": "Gesetzliche Grundlage",
+      "p1": "Eine rechtliche Betreuung wird vom Betreuungsgericht für eine volljährige Person angeordnet, die wegen einer gesundheitlichen oder geistigen Einschränkung ihre Angelegenheiten ganz oder teilweise nicht mehr selbst regeln kann.",
+      "p2": "Die Betreuung ist auf Erforderlichkeit beschränkt und am Wohl sowie Willen der betreuten Person ausgerichtet (§§ 1814 ff. BGB). Aufgabenkreise und Dauer werden vom Gericht im Einzelfall festgelegt und regelmäßig überprüft.",
+      "h2": "Was sie nicht ist",
+      "list": [
+        "Betreuung ist nicht Entmündigung — diese wurde 1992 abgeschafft.",
+        "Sie ersetzt nicht den Willen der betreuten Person, sondern unterstützt ihn.",
+        "Sie ist nicht pauschal — Aufgabenkreise sind präzise zugeschnitten.",
+        "Sie ist nicht auf Dauer — sie endet, wenn sie nicht mehr erforderlich ist."
+      ]
+    },
+    "vorschlag": {
+      "eyebrow": "Betreuerauswahl",
+      "title": "Daiva Jankus als Betreuerin vorschlagen.",
+      "h1": "Rechtliche Grundlage",
+      "p1": "Bei der Anordnung einer Betreuung haben Betroffene und nahe Angehörige ein Vorschlagsrecht (§ 1816 BGB). Das Betreuungsgericht ist diesem Vorschlag im Regelfall zu folgen verpflichtet, sofern keine Eignungs- oder Interessenkonflikte dagegen sprechen.",
+      "p2": "Sprachliche und kulturelle Nähe zur betroffenen Person zählt zur Eignungsprüfung — ein Aspekt, in dem litauischsprachige Familien in Deutschland systematisch unterversorgt sind.",
+      "h2": "Praktischer Ablauf",
+      "steps": [
+        "Erstkontakt — kurze Schilderung der Situation per Telefon oder Formular.",
+        "Persönliches Gespräch — Eignungsprüfung und Klärung der erwarteten Aufgabenkreise.",
+        "Vorschlag beim Gericht — schriftlicher Vorschlag mit Sachkundenachweis und Bereitschaftserklärung.",
+        "Bestellung — das Betreuungsgericht prüft und bestellt."
+      ]
+    },
+    "litauisch": {
+      "eyebrow": "Sprachliche Betreuung",
+      "title": "Betreuung in der Muttersprache der betreuten Person.",
+      "body": "Die Sprache der Kindheit kehrt im Alter zurück, oft auch bei kognitiven Einschränkungen. Eine litauischsprachige Person, die jahrzehntelang auf Deutsch gearbeitet und gelebt hat, mag im Pflegeheim plötzlich nur noch Litauisch verstehen wollen — oder können. Wenn dann Behandlungsentscheidungen, Heimverträge oder Vermögensfragen anstehen, entscheidet die Sprache über die Würde des Verfahrens.",
+      "cases": [
+        { "title": "Vertrauen statt Übersetzung", "body": "Wenn die Betreuerin selbst Litauisch spricht, entfällt der Filter eines Dritten. Persönliche Gespräche bleiben persönlich." },
+        { "title": "Verbindung zur Familie in Litauen", "body": "Angehörige, die im Heimatland leben, können in ihrer Sprache eingebunden werden — bei Entscheidungen, die das ganze Leben betreffen." },
+        { "title": "Eignung, die das Gericht erkennt", "body": "Sprachliche und kulturelle Nähe sind in § 1816 BGB als Eignungskriterien anerkannt — eine Voraussetzung, die formal belegt sein muss." }
+      ]
+    },
+    "differentiation": {
+      "eyebrow": "Warum ein Mensch",
+      "title": "Warum eine Person — und kein System.",
+      "items": [
+        { "title": "Persönliche Registrierung", "body": "Berufsbetreuerinnen müssen seit 2023 nach BtOG persönlich registriert sein — mit Sachkunde, Eignung und Berufshaftpflicht." },
+        { "title": "Treuhand für Lebensentscheidungen", "body": "Schweigepflicht, persönliche Aktenführung, Haftung im eigenen Namen. Berichtspflicht gegenüber dem Betreuungsgericht." },
+        { "title": "Anwesenheit, nicht Abruf", "body": "Pflegegespräche, Behördentermine und Klinikvisiten leben von Präsenz und Urteilsvermögen. Beides verlangt Da-Sein." }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gefragt — zur Betreuung.",
+      "items": [
+        { "q": "Was ist eine rechtliche Betreuung?", "a": "Eine rechtliche Betreuung wird vom Betreuungsgericht für volljährige Personen angeordnet, die ihre Angelegenheiten ganz oder teilweise nicht mehr selbst regeln können (§§ 1814 ff. BGB)." },
+        { "q": "Was ist eine Berufsbetreuerin nach BtOG?", "a": "Beruflich tätige Betreuerinnen mit nachgewiesener Sachkunde, registriert nach Betreuerorganisationsgesetz (BtOG) bei der Stammbehörde. Voraussetzungen: persönliche Eignung, Sachkundenachweis, Berufshaftpflicht." },
+        { "q": "In welchen Aufgabenkreisen wird Daiva Jankus tätig?", "a": "Vermögens-, Gesundheits- und Aufenthaltssorge sowie Behörden- und Wohnungsangelegenheiten — abhängig vom richterlichen Beschluss." },
+        { "q": "Kann ich Daiva Jankus als Betreuerin vorschlagen?", "a": "Ja. Betroffene oder Angehörige können eine bestimmte Person vorschlagen (§ 1816 BGB). Das Gericht ist diesem Vorschlag im Regelfall zu folgen verpflichtet." },
+        { "q": "Wer trägt die Kosten der Betreuung?", "a": "Bei mittellosen Betroffenen trägt die Staatskasse die pauschalierte Vergütung nach VBVG. Bei vermögenden Betroffenen wird sie aus dem Vermögen der betreuten Person beglichen." },
+        { "q": "Wie wird eine Betreuung beendet oder geändert?", "a": "Die Betreuung endet, sobald sie nicht mehr erforderlich ist. Das Gericht prüft regelmäßig (spätestens nach sieben Jahren) und kann Aufgabenkreise erweitern oder einschränken." },
+        { "q": "Welche Pflichten hat eine Berufsbetreuerin?", "a": "Persönliche Wahrnehmung der Aufgabenkreise, Berichtspflicht an das Gericht, jährliche Rechnungslegung, Einhaltung des Selbstbestimmungsrechts der betreuten Person." },
+        { "q": "Wie unterscheidet sich Betreuung von Vorsorgevollmacht?", "a": "Eine Vorsorgevollmacht erteilen Sie selbst im Voraus für den Fall der Geschäftsunfähigkeit. Eine Betreuung wird vom Gericht angeordnet, wenn keine wirksame Vollmacht besteht oder diese nicht ausreicht." }
+      ]
+    },
+    "crosslink": {
+      "eyebrow": "Auch relevant",
+      "body": "Wenn Ihr Anliegen Sprachvermittlung in Justiz oder Behörde betrifft — vor oder neben einer Betreuung — kommt Mandat I ins Spiel.",
+      "cta": "Zum Dolmetschen & Übersetzen"
+    },
+    "closing": {
+      "title": "Anfrage zu einer Betreuungssache."
+    }
+  },
+  "ueber": {
+    "metaTitle": "Über Daiva Jankus | Werdegang & Qualifikationen",
+    "metaDescription": "Daiva Jankus — vereidigte Dolmetscherin Litauisch–Deutsch und registrierte Berufsbetreuerin. Drei Jahrzehnte zwischen zwei Sprachen und zwei Verantwortungen.",
+    "breadcrumb": "Über mich",
+    "hero": {
+      "eyebrow": "Werdegang",
+      "title": "Drei Jahrzehnte zwischen zwei Sprachen — und zwei Verantwortungen.",
+      "lead": "Geboren in Litauen, ausgebildet in Vilnius, seit 1995 in Deutschland tätig. Allgemein beeidigte Dolmetscherin und ermächtigte Übersetzerin für Litauisch–Deutsch (OLG Düsseldorf), seit 2023 zusätzlich registrierte Berufsbetreuerin nach BtOG. Sitz in Mönchengladbach, Tätigkeit in NRW und bundesweit."
+    },
+    "bio": {
+      "title": "Werdegang.",
+      "photoAlt": "Portrait Daiva Jankus — Werdegang",
+      "p1": "Aufgewachsen zwischen den beiden Sprachen, die heute Grundlage meiner Arbeit sind. Studium der Germanistik und Translationswissenschaft in Vilnius, anschließend Aufbaustudien in Deutschland. 1995 Niederlassung in Nordrhein-Westfalen.",
+      "p2": "Allgemeine Beeidigung als Dolmetscherin und Ermächtigung als Übersetzerin durch das Oberlandesgericht Düsseldorf. Über drei Jahrzehnte Einsätze vor Gericht, bei Notaren, in Wirtschaftsverhandlungen und in der persönlichen Vertretung.",
+      "p3": "2023 Registrierung als Berufsbetreuerin nach dem Betreuerorganisationsgesetz (BtOG) mit Sachkundenachweis. Damit Erweiterung der Tätigkeit um die persönliche Vertretung volljähriger Menschen — eine Verantwortung, die mit der bisherigen Berufspraxis sprachlich, ethisch und juristisch verbunden ist.",
+      "p4": "Beide Tätigkeiten verbinden sich besonders dort, wo es um litauischsprachige Menschen in Deutschland geht — ältere Generationen in Pflegeeinrichtungen, Familien mit Angehörigen in Litauen, gerichtliche Verfahren, in denen Sprache und Selbstbestimmung untrennbar sind."
+    },
+    "timeline": {
+      "eyebrow": "Stationen",
+      "title": "Berufliche Stationen.",
+      "items": [
+        { "year": "1995", "title": "Niederlassung in Deutschland", "body": "Beginn der freiberuflichen Tätigkeit als Dolmetscherin und Übersetzerin in Nordrhein-Westfalen." },
+        { "year": "1998", "title": "Allgemeine Beeidigung", "body": "Beeidigung als Dolmetscherin und Ermächtigung als Übersetzerin für die litauische Sprache durch das Oberlandesgericht Düsseldorf." },
+        { "year": "2000–2023", "title": "Drei Jahrzehnte Praxis", "body": "Über tausend Einsätze vor Gerichten, Notaren, Behörden und in Wirtschaftsverhandlungen. Begleitende Übersetzung amtlicher und privater Dokumente." },
+        { "year": "2023", "title": "Registrierung als Berufsbetreuerin", "body": "Sachkundenachweis und Registrierung nach BtOG bei der Stammbehörde. Erweiterung der Tätigkeit um die rechtliche Betreuung." },
+        { "year": "heute", "title": "Zwei Mandate, ein Standort", "body": "Praxis in Mönchengladbach. Tätig in NRW und bundesweit, in beiden Mandaten — auf Deutsch und Litauisch." }
+      ]
+    },
+    "credentials": {
+      "eyebrow": "Qualifikationen",
+      "title": "Zulassungen, Mitgliedschaften, Sprachen.",
+      "groups": [
+        {
+          "title": "Beeidigung & Ermächtigung",
+          "items": ["Allgemein beeidigte Dolmetscherin (OLG Düsseldorf)", "Ermächtigte Übersetzerin für Litauisch–Deutsch", "Bundesweit einsetzbar"]
+        },
+        {
+          "title": "Berufsbetreuung",
+          "items": ["Registrierte Berufsbetreuerin nach BtOG", "Sachkundenachweis 2023", "Berufshaftpflichtversichert"]
+        },
+        {
+          "title": "Ausbildung",
+          "items": ["Studium Germanistik / Translation, Vilnius", "Aufbaustudien in Deutschland", "Fortlaufende juristische Weiterbildung"]
+        },
+        {
+          "title": "Sprachen",
+          "items": ["Litauisch — Muttersprache", "Deutsch — verhandlungssicher (C2)", "Englisch — Konversation, Schriftverkehr"]
+        }
+      ]
     }
   }
 }

@@ -2,7 +2,15 @@
 
 Next.js 15 + TypeScript port of the Claude Design prototype for **Daiva Jankus** (sworn Lithuanian–German interpreter and registered professional legal guardian, Mönchengladbach).
 
-The homepage in `src/app/[locale]/page.tsx` reproduces `Daiva Jankus.html` from the design bundle. Other routes (`/dolmetschen`, `/rechtliche-betreuung`, `/ueber`) are stubbed with a "work-in-progress" placeholder so internal links don't 404 — port the design's full content into them when ready.
+All five routes from the design bundle are implemented:
+
+- `/` — homepage (`Daiva Jankus.html`)
+- `/dolmetschen` — Mandate I (interpreting & translation): hero, 3-up services, certified translations, locations, differentiation, FAQ ×8, cross-link, closing CTA
+- `/rechtliche-betreuung` — Mandate II (legal guardianship): hero, Aufgabenkreise, "Was ist Betreuung", §1816 Vorschlag, Litauisch-Schwerpunkt, differentiation, FAQ ×8, cross-link, closing CTA
+- `/ueber` — bio, timeline, credentials grid
+- `/kontakt` — three-channel block + Resend-backed form with `?topic=` prefill from cross-page CTAs
+
+Translations for all subpages exist in DE/EN/LT — the EN and LT versions for the subpages were produced during the port and should be reviewed by a native speaker before publishing.
 
 ## Stack
 
@@ -48,20 +56,21 @@ src/
     layout.tsx            # passthrough
     [locale]/
       layout.tsx          # html shell, fonts, header/footer, JSON-LD
-      page.tsx            # homepage (the implemented design)
+      page.tsx            # homepage (Daiva Jankus.html)
       kontakt/page.tsx    # contact page with Resend form
-      dolmetschen/        # WIP stub
-      rechtliche-betreuung/
-      ueber/
+      dolmetschen/        # Mandate I: interpreting & translation
+      rechtliche-betreuung/  # Mandate II: legal guardianship
+      ueber/              # bio + timeline + credentials
       not-found.tsx
+      icon.svg            # favicon — DJ monogram in amber
     globals.css           # ported design CSS
   components/
-    chrome/               # Header, Footer, MobileSheet, LangToggle, FloatingCall
+    chrome/               # Header, Footer, MobileSheet, LangToggle, FloatingCall, BrandMark
     home/                 # Hero, TrustBar, Mandates, Intersection, Differentiation, AboutTeaser, HomeFaq, ClosingCta
+    subpages/             # Subhero, Services3Up, Twocol, DifferentiationBand, SubpageFaq, Crosslink, SubpageClosingCta, Bio, Timeline, CredentialsGrid, LitauischeBetreuung, icons
     kontakt/              # ContactChannels, ContactForm, Hinweise
     ui/                   # ImageSlot, Faq (accordion)
     seo/                  # JsonLd
-    subpages/             # Wip placeholder used by stubs
   actions/inquiry.ts      # Server Action — Resend integration
   lib/contact.ts          # CONTACT info + Zod schema (used both sides of action)
 ```

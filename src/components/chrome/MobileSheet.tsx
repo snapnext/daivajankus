@@ -4,6 +4,8 @@ import { useEffect, useState, type ReactNode } from "react";
 import { usePathname } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 
+import { BrandMark } from "./BrandMark";
+
 type Props = {
   children: ReactNode;
 };
@@ -76,7 +78,10 @@ export function MobileSheet({ children }: Props) {
         }}
       >
         <div className="mobile-sheet-head">
-          <span className="wordmark-name">Daiva Jankus</span>
+          <span className="wordmark wordmark-compact">
+            <BrandMark size={32} />
+            <span className="wordmark-name">Daiva Jankus</span>
+          </span>
           <button
             type="button"
             className="mobile-toggle"
