@@ -253,15 +253,25 @@ p { margin: 0; text-wrap: pretty; }
   .tel-btn span { display: none; }
   .lang-toggle button,
   .lang-toggle a { padding: 5px 8px; }
+  /* Tighten the header so the new BrandMark + wordmark + lang toggle +
+     tel button + burger all fit inside the container without overflowing. */
+  .header-inner { gap: 12px; }
+  .header-right { gap: 8px; }
+  .wordmark { gap: 8px; }
+  .wordmark svg { width: 32px; height: 32px; }
   .mobile-toggle {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 40px; height: 40px;
     background: transparent;
-    border: 1px solid var(--rule);
+    border: 1px solid var(--amber);
+    color: var(--amber-dark);
     cursor: pointer;
+    flex-shrink: 0;
+    transition: background-color .2s, color .2s, border-color .2s;
   }
+  .mobile-toggle:hover { background: var(--amber); color: var(--paper); border-color: var(--amber); }
   .mobile-toggle svg { width: 18px; height: 18px; }
   .mobile-sheet {
     display: block;
@@ -1154,6 +1164,10 @@ section[data-bg="cream"] .timeline li::after {
   h3 { font-size: 20px; }
   .lead { font-size: 17px; line-height: 1.55; }
   .eyebrow { font-size: 11px; }
+  /* Drop the small "Dolmetscherin · Berufsbetreuerin" subline in the header
+     wordmark to free horizontal space — the BrandMark + name still convey
+     the brand on a phone. */
+  .wordmark-sub { display: none; }
 }
 @media (min-width: 641px) and (max-width: 880px) {
   h1 { font-size: 40px; line-height: 1.12; }
@@ -1179,7 +1193,7 @@ section[data-bg="cream"] .timeline li::after {
 /* Hero mobile crop */
 @media (max-width: 880px) {
   .hero { padding-top: 48px; padding-bottom: 48px; }
-  .hero-portrait .image-slot { aspect-ratio: 4 / 3 !important; max-height: 360px; }
+  .hero-portrait .image-slot { aspect-ratio: 4 / 5; max-height: none; }
   .hero-content { gap: 20px; }
   .hero-content .lead { font-size: 17px; }
   .hero-actions .btn { flex: 1 1 auto; min-width: 140px; }
