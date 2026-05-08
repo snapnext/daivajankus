@@ -1168,6 +1168,11 @@ section[data-bg="cream"] .timeline li::after {
      wordmark to free horizontal space — the BrandMark + name still convey
      the brand on a phone. */
   .wordmark-sub { display: none; }
+  /* On phones the inline DE/EN/LT toggle in the header collides with the
+     burger; the mobile sheet already has a full-width language toggle, so
+     hiding the inline one is a no-op for users. ">" excludes the sheet
+     toggle which lives several levels deep inside .mobile-sheet. */
+  .header-right > .lang-toggle { display: none; }
 }
 @media (min-width: 641px) and (max-width: 880px) {
   h1 { font-size: 40px; line-height: 1.12; }
